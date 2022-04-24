@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		247FFA6323B00800A77236F3 /* Pods_Zoo_General_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoo_General_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3899F1F48CB509AAAB6A0719 /* Pods_Zoo_General_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoo_General_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A79CAA0AB9A67D21ED2ACC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3A79CAA0AB9A67D21ED2ACC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3E5DC74A32BAA747C086464F /* Pods-Zoo.General_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoo.General_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Zoo.General_Tests/Pods-Zoo.General_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D408CF8D754E60A37AFC456 /* Pods-Zoo.General_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoo.General_Example.debug.xcconfig"; path = "Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Zoo.General_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoo.General_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +61,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7046BA7EB479C677A4F8C42A /* Zoo.General.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Zoo.General.podspec; path = ../Zoo.General.podspec; sourceTree = "<group>"; };
+		7046BA7EB479C677A4F8C42A /* Zoo.General.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Zoo.General.podspec; path = ../Zoo.General.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		971873E0619AD9A73BFF7DF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		971873E0619AD9A73BFF7DF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B956739AE3BC5CB060B8BAAD /* Pods-Zoo.General_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoo.General_Tests.release.xcconfig"; path = "Target Support Files/Pods-Zoo.General_Tests/Pods-Zoo.General_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2D8D263CF61230C805775AE /* Pods-Zoo.General_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoo.General_Example.release.xcconfig"; path = "Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				3E5DC74A32BAA747C086464F /* Pods-Zoo.General_Tests.debug.xcconfig */,
 				B956739AE3BC5CB060B8BAAD /* Pods-Zoo.General_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +302,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Zoo.General/Zoo_General.framework",
+				"${BUILT_PRODUCTS_DIR}/Zoo/Zoo.framework",
+				"${BUILT_PRODUCTS_DIR}/Zoo.General/ZooGeneral.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zoo_General.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zoo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZooGeneral.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

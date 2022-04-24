@@ -7,12 +7,30 @@
 //
 
 #import "ZOOAppDelegate.h"
+#import <Zoo/ZooManager.h>
+#import <ZooGeneral/ZooManager+General.h>
+#import <ZooGeneral/ZooCacheManager+General.h>
+
 
 @implementation ZOOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [ZooManager shareInstance].routerBlock = ^(NSString *url) {
+        NSLog(@"routerBlock: %@", url);
+        NSString *c = nil;
+        NSDictionary *m = @{
+            @"c": c,
+        };
+        NSLog(@"Crash: %@", m[@"c"]);
+    };
+    
+    [[ZooManager shareInstance] addGeneralPlugins];
+    [[ZooManager shareInstance] setupGeneralPlugins];
+    [[ZooManager shareInstance] install];
+    
     return YES;
 }
 

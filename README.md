@@ -1,6 +1,5 @@
 # Zoo.General
 
-[![CI Status](https://img.shields.io/travis/lzackx/Zoo.General.svg?style=flat)](https://travis-ci.org/lzackx/Zoo.General)
 [![Version](https://img.shields.io/cocoapods/v/Zoo.General.svg?style=flat)](https://cocoapods.org/pods/Zoo.General)
 [![License](https://img.shields.io/cocoapods/l/Zoo.General.svg?style=flat)](https://cocoapods.org/pods/Zoo.General)
 [![Platform](https://img.shields.io/cocoapods/p/Zoo.General.svg?style=flat)](https://cocoapods.org/pods/Zoo.General)
