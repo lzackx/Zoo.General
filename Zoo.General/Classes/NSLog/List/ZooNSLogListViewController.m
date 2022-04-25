@@ -9,13 +9,13 @@
 #import "UIView+Zoo.h"
 #import "ZooNSLogListCell.h"
 #import "ZooNSLogModel.h"
-#import "ZooNSLogSearchView.h"
+#import <Zoo/ZooStringSearchView.h>
 #import "ZooDefine.h"
 #import "ZooNavBarItemModel.h"
 
 @interface ZooNSLogListViewController ()<UITableViewDelegate,UITableViewDataSource,ZooNSLogSearchViewDelegate>
 
-@property (nonatomic, strong) ZooNSLogSearchView *searchView;
+@property (nonatomic, strong) ZooStringSearchView *searchView;
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, copy) NSArray *dataArray;
 
@@ -35,7 +35,7 @@
     self.dataArray = [[[ZooNSLogManager sharedInstance].dataArray reverseObjectEnumerator] allObjects];
     
   
-    _searchView = [[ZooNSLogSearchView alloc] initWithFrame:CGRectMake(kZooSizeFrom750_Landscape(32), IPHONE_NAVIGATIONBAR_HEIGHT+kZooSizeFrom750_Landscape(32), self.view.zoo_width-2*kZooSizeFrom750_Landscape(32), kZooSizeFrom750_Landscape(100))];
+    _searchView = [[ZooStringSearchView alloc] initWithFrame:CGRectMake(kZooSizeFrom750_Landscape(32), IPHONE_NAVIGATIONBAR_HEIGHT+kZooSizeFrom750_Landscape(32), self.view.zoo_width-2*kZooSizeFrom750_Landscape(32), kZooSizeFrom750_Landscape(100))];
     _searchView.delegate = self;
     [self.view addSubview:_searchView];
     
