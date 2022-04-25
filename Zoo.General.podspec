@@ -13,17 +13,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   General plugin for Zoo
                        DESC
-
   s.homepage         = 'https://github.com/lzackx/Zoo.General'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lzackx' => 'lzackx@lzackx.com' }
   s.source           = { :git => 'https://github.com/lzackx/Zoo.General.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.module_name = 'ZooGeneral'
-#  s.pod_target_xcconfig = {
-#    'DEFINES_MODULE' => 'YES'
-#  }
   s.source_files = 'Zoo.General/Classes/**/*'
   s.dependency 'Zoo'
-
 end
