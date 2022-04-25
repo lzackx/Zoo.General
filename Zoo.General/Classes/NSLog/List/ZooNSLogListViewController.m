@@ -13,7 +13,7 @@
 #import "ZooDefine.h"
 #import "ZooNavBarItemModel.h"
 
-@interface ZooNSLogListViewController ()<UITableViewDelegate,UITableViewDataSource,ZooNSLogSearchViewDelegate>
+@interface ZooNSLogListViewController ()<UITableViewDelegate,UITableViewDataSource,ZooStringSearchViewDelegate>
 
 @property (nonatomic, strong) ZooStringSearchView *searchView;
 @property (nonatomic, strong) UITableView *tableView;
@@ -124,7 +124,7 @@
     }
 }
 
-#pragma mark - ZooNSLogSearchViewDelegate
+#pragma mark - ZooStringSearchViewDelegate
 - (void)searchViewInputChange:(NSString *)text{
     if (text.length > 0) {
         NSArray *dataArray = [[[ZooNSLogManager sharedInstance].dataArray reverseObjectEnumerator] allObjects];

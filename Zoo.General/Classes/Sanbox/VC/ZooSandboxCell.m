@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooSandboxCell.h"
-#import "ZooSandboxModel.h"
+#import <Zoo/ZooSandboxModel.h>
 #import "ZooUtil.h"
 #import "UIView+Zoo.h"
 #import "ZooDefine.h"

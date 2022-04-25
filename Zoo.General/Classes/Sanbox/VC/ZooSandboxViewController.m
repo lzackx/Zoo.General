@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooSandboxViewController.h"
-#import "ZooSandboxModel.h"
+#import <Zoo/ZooSandboxModel.h>
 #import "ZooSanboxDetailViewController.h"
 #import "ZooNavBarItemModel.h"
 #import "ZooAppInfoUtil.h"

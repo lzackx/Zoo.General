@@ -9,7 +9,7 @@
 #import "ZooCrashListCell.h"
 #import "Zooi18NUtil.h"
 #import "ZooSanboxDetailViewController.h"
-#import "ZooSandboxModel.h"
+#import <Zoo/ZooSandboxModel.h>
 #import "ZooCrashTool.h"
 #import "ZooDefine.h"
 

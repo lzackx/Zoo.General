@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooCrashListCell.h"
-#import "ZooSandboxModel.h"
+#import <Zoo/ZooSandboxModel.h>
 #import "ZooDefine.h"
 
 @interface ZooCrashListCell ()
