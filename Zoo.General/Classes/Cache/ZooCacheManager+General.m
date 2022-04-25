@@ -9,7 +9,6 @@
 #import <Zoo/ZooDefine.h>
 
 
-static NSString * const kZooLoggerSwitchKey = @"zoo_env_key";
 static NSString * const kZooCrashKey = @"zoo_crash_key";
 static NSString * const kZooNSLogKey = @"zoo_nslog_key";
 static NSString * const kZooRouterhistoricalRecord = @"zoo_router_historical_record";
@@ -17,15 +16,6 @@ static NSString * const kZooH5historicalRecord = @"zoo_h5_historical_record";
 
 
 @implementation ZooCacheManager (General)
-
-- (void)saveLoggerSwitch:(BOOL)on{
-    [[NSUserDefaults standardUserDefaults] setBool:on forKey:kZooLoggerSwitchKey];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-}
-
-- (BOOL)loggerSwitch{
-    return [[NSUserDefaults standardUserDefaults] boolForKey:kZooLoggerSwitchKey];
-}
 
 - (void)saveCrashSwitch:(BOOL)on{
     [[NSUserDefaults standardUserDefaults] setBool:on forKey:kZooCrashKey];

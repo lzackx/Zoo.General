@@ -10,10 +10,6 @@
 
 @interface ZooCacheManager (General)
 
-- (void)saveLoggerSwitch:(BOOL)on;
-
-- (BOOL)loggerSwitch;
-
 - (void)saveCrashSwitch:(BOOL)on;
 
 - (BOOL)crashSwitch;
