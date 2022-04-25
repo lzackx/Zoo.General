@@ -8,11 +8,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void (^ZooURLBlock)(NSString *);
+typedef UIImage * _Nullable (^ZooWebpHandleBlock)(NSString *filePath);
+
 @interface ZooManager (General)
 
 @property (nonatomic, copy) ZooURLBlock routerBlock;
 
 @property (nonatomic, copy) ZooURLBlock webviewBlock;
+
+@property (nonatomic, copy) ZooWebpHandleBlock webpHandleBlock;
+
+- (void)addWebpHandleBlock:(ZooWebpHandleBlock)block;
 
 // MARK: - General
 - (void)addGeneralPlugins;

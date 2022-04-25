@@ -62,6 +62,14 @@
     objc_setAssociatedObject(self, @selector(webviewBlock), webviewBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
+- (ZooWebpHandleBlock)webpHandleBlock {
+    return objc_getAssociatedObject(self, _cmd);
+}
+
+- (void)setWebpHandleBlock:(UIImage * _Nullable(^)(NSString *filePath))webpHandleBlock {
+    objc_setAssociatedObject(self, @selector(webpHandleBlock), webpHandleBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
 #pragma mark - Model
 
 - (ZooManagerPluginTypeModel *)appSettingPluginModel {

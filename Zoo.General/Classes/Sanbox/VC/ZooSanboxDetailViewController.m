@@ -13,7 +13,7 @@
 #import <QuickLook/QuickLook.h>
 #import "ZooDBManager.h"
 #import "ZooDBTableViewController.h"
-#import "ZooManager.h"
+#import "ZooManager+General.h"
 
 @interface ZooSanboxDetailViewController ()<QLPreviewControllerDelegate,QLPreviewControllerDataSource,UITableViewDelegate,UITableViewDataSource>
 
