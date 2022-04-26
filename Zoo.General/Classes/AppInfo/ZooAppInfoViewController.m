@@ -297,7 +297,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if(indexPath.section == 2){
         [ZooUtil openAppSetting];
+    } else {
+        [UIPasteboard generalPasteboard].string = self.dataArray[indexPath.section][@"array"][indexPath.row][@"value"];
     }
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{
