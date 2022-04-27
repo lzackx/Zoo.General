@@ -33,12 +33,15 @@
 #endif
         self.titleLabel = [[UILabel alloc] init];
         self.titleLabel.textColor = [UIColor zoo_black_1];
+        self.titleLabel.textAlignment = NSTextAlignmentLeft;
         self.titleLabel.font = [UIFont systemFontOfSize:kZooSizeFrom750_Landscape(32)];
         [self.contentView addSubview:self.titleLabel];
         
         self.valueLabel = [[UILabel alloc] init];
         self.valueLabel.textColor = [UIColor zoo_black_2];
+        self.valueLabel.textAlignment = NSTextAlignmentRight;
         self.valueLabel.font = [UIFont systemFontOfSize:kZooSizeFrom750_Landscape(32)];
+        self.valueLabel.lineBreakMode = NSLineBreakByTruncatingMiddle;
         [self.contentView addSubview:self.valueLabel];
     }
     return self;
@@ -68,8 +71,14 @@
     [self.titleLabel sizeToFit];
     [self.valueLabel sizeToFit];
     
-    self.titleLabel.frame = CGRectMake(kZooSizeFrom750_Landscape(32), 0, self.titleLabel.zoo_width, [[self class] cellHeight]);
-    self.valueLabel.frame = CGRectMake(ZooScreenWidth-kZooSizeFrom750_Landscape(32)-self.valueLabel.zoo_width, 0, self.valueLabel.zoo_width, [[self class] cellHeight]);
+    self.titleLabel.frame = CGRectMake(kZooSizeFrom750_Landscape(32),
+                                       0,
+                                       self.titleLabel.zoo_width,
+                                       [[self class] cellHeight]);
+    self.valueLabel.frame = CGRectMake(kZooSizeFrom750_Landscape(32) + CGRectGetMaxX(self.titleLabel.frame),
+                                       0,
+                                       ZooScreenWidth - (kZooSizeFrom750_Landscape(32) * 2) - CGRectGetMaxX(self.titleLabel.frame),
+                                       [[self class] cellHeight]);
 }
 
 + (CGFloat)cellHeight{
