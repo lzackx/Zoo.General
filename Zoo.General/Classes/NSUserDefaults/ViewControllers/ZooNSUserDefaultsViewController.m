@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooNSUserDefaultsViewController.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooNSUserDefaultsModel.h"
 #import "ZooNSUserDefaultsEditViewController.h"
 

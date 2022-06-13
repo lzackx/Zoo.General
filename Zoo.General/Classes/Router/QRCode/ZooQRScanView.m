@@ -7,7 +7,7 @@
 #import "ZooQRScanView.h"
 #import <AVFoundation/AVFoundation.h>
 #import <ImageIO/ImageIO.h>
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 static CGFloat scanTime = 3.0;
 static CGFloat borderLineWidth = 0.5;

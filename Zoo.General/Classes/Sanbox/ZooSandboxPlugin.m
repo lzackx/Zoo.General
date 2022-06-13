@@ -6,7 +6,7 @@
 
 #import "ZooSandboxPlugin.h"
 #import "ZooSandboxViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooSandboxPlugin
 

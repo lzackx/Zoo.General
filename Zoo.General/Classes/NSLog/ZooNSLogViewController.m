@@ -5,11 +5,11 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooNSLogViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooCellButton.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooCellButton.h>
 #import "ZooCacheManager+General.h"
 #import "ZooNSLogListViewController.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooNSLogManager.h"
 
 @interface ZooNSLogViewController ()<ZooSwitchViewDelegate,ZooCellButtonDelegate>

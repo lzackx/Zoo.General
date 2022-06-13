@@ -1,0 +1,1998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01451FE6F1750EED53EBC2E512F3C7EF /* ZooBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AF83B98939A97986682E49CF59885E /* ZooBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F6CBF8440F334EA523639945CC87C5 /* ZooCrashListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD413D7A173AC6C7BB7CC1F6791099C1 /* ZooCrashListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05F507C84B9DCE0856704D04400A9B1A /* ZooNSUserDefaultsEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD2A7A6253876BA39FE1EFF5CA91B0 /* ZooNSUserDefaultsEditViewController.m */; };
+		06035339DA6A5449900082406ADA3EA4 /* UIImage+Zoo.h in Headers */ = {isa = PBXBuildFile; fileRef = 648E31B265C03E0D96BDCB07AF8F5CBF /* UIImage+Zoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0634F11E2F0DAD64CFAED1BC165BF544 /* Pods-Zoo.General_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE02619ABFDA42F76D21FDEEB23A21E /* Pods-Zoo.General_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082CAB10C2B77AC9E4BA22B0552ADD76 /* ZooCellSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C0938B738BA52DD28A2CF52B567D44FE /* ZooCellSwitch.m */; };
+		08F494A61161B8728E453E5B2C64ECFF /* ZooChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C67B00499BDD62F90DF7AC4958ED7 /* ZooChart.m */; };
+		09428A5B75A25B802B2DE706B02F2A94 /* ZooDBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E5411901561C50FAF1B2049AD51087 /* ZooDBCell.m */; };
+		0CB0D8BF16D9DAB3F4A2D28CE4E1208E /* ZooPluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E78383DF9710D5579FED5AF742DEEDE3 /* ZooPluginProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1236261B13A1CC294CA41283884BDD /* ZooCellSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 009FFFD48F231C8B2D0D8831A83D3F73 /* ZooCellSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3D8DAC008AFEB3DD567EF89B7AE866 /* ZooStartPluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D386C83491B37B23667C4487DD75EEB /* ZooStartPluginProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1059B20A8D8D66151929CA209824AA00 /* ZooDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CECE86199A6B917A948728C015DE68D8 /* ZooDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10BD88AF0B1C1F6C99CD425F3DFE7AD5 /* ZooPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BBE58FF854521C3FC413E107C29D7B /* ZooPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1167848A27225A34EB1C303AD435A62E /* UIViewController+Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AA82E1887D11AE4F05B2884BAFB47 /* UIViewController+Zoo.m */; };
+		1175D5F4393882044B716E81137E9D50 /* ZooSandboxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 223640F905925C6BE20D605BD6EB7FD6 /* ZooSandboxModel.m */; };
+		12D0D6E3217CB3663B818E16EC89C733 /* ZooDefaultWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97852A11F5BCE9A89C72A4B9AA8E4CE4 /* ZooDefaultWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146109488D122AB1657CD5997D35CE2F /* ZooNSLogListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC5AAEE84848DB38C207DC25EA836C2 /* ZooNSLogListCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1741421B553908A8B9C403801F6CB8C6 /* ZooBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9A863D11316D50A05ECE5B996DAE5 /* ZooBaseViewController.m */; };
+		182EC99241AD1C2EA7C5B9A972B7D235 /* ZooNSUserDefaultsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C9AEA05B0BC30CB97A7D5507C70836 /* ZooNSUserDefaultsPlugin.m */; };
+		184B0836DD2A56FB578089BDC7F98819 /* ZooDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCB43560B0A0522BA41B77B74AB783 /* ZooDBManager.m */; };
+		186F5B89FB271B0E1BF5899F0123A9EA /* Zoo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E105A962043D80EE8D58E8B45EDA57E /* Zoo-dummy.m */; };
+		1927CEDC6F43A7AD963995929ACE3D73 /* ZooNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE696540239ECF4F72661C97D32CDA82 /* ZooNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19F8EAFB5CB830F252EE395009FC7FC6 /* ZooCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5730EF55366314EC70646783EE0C7F /* ZooCrashViewController.m */; };
+		1A0B68C0E4F1E7CE6670CF73B7095255 /* Zoo.General.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C9F309D46CE61BD803028241FA0400 /* Zoo.General.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B342725E683872B7B1206BD2EF082E9 /* ZooHomeHeadCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AABB0416A4BE1689497A93552FF9E559 /* ZooHomeHeadCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4EA8397114AED4E9FE3B6594750B5C /* ZooHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA36AD089C938D6CDB23D07F8808148D /* ZooHomeViewController.m */; };
+		1D112229F1EB3CAD9F00D5F50F23444E /* ZooCacheManager+General.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A341ABFCCADD165641568810849EDE7 /* ZooCacheManager+General.m */; };
+		1D3F55B9F120748A682F84FDE7A770D8 /* ZooCellInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D721BC886F43F766390073128286A1 /* ZooCellInput.m */; };
+		1D89119360A723EDB915E4919AB60156 /* ZooQRScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE11CD4F225E900EB91D4FD08F1D612 /* ZooQRScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A57B23D7EC0DB5F923441A7E50621C /* ZooChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5134AF8CC3E1FE9CE828C2A27EE92E71 /* ZooChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2124460D06E753C71E4F7EAA69496E31 /* ZooCrashPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 205D8540424B4C543DE3BFF9D409DFF5 /* ZooCrashPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2258C66124774BC4B1574E37DBF70752 /* ZooSandboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E12EB474246A7A4E0D0A74ADFAC68EED /* ZooSandboxCell.m */; };
+		2332445F2A97946CD9C0921CFAF2D3EC /* Pods-Zoo.General_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10A606487C0C93A0D6728BFF51FF7D /* Pods-Zoo.General_Example-dummy.m */; };
+		278712BA190656E8B1C7FBC365C29148 /* ZooNavBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A44BC854A210A2B8326D2F2571152670 /* ZooNavBarItemModel.m */; };
+		28ADCF6DC4E40ECCB35A02C254E3104B /* ZooCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC2A7C42266BB049FE76879812B7D93 /* ZooCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28E0A64AD21F5FEE13BE39310B5DC093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC748F361A5F9CA25EBA8939CEEF210 /* Assets.xcassets */; };
+		2C4BEF9890694C7868CA8DA05F9A954F /* ZooAppInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F43B7BF2F3FFAAD49A2EBD001CB5201 /* ZooAppInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5CB34FAF9D0C799ADB188C96C7D602 /* ZooCellButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE4C6FC3249BDEA474B735B619EF42 /* ZooCellButton.m */; };
+		2CEF025C091F8075D350DDFBCBBEB1AF /* ZooNSLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EAE6B46EE5D28DE2E572ABA363F5E6 /* ZooNSLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3989E7FB373CEA72A46B10206E1A90 /* ZooNSUserDefaultsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9FBA6D799B98E2F7158ACEA941080D /* ZooNSUserDefaultsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3214F8921BD9AC2216A454C45E52FCFC /* ZooNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AEF97CBC9A116EB7765EF883D13DFF /* ZooNavigationController.m */; };
+		3353408B2E7205E0F2AF1FA3D1DBC9C8 /* ZooVisualMagnifierWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCAE62CF182513F83440FF949D64217 /* ZooVisualMagnifierWindow.m */; };
+		33B46877D58FCC55D35B3ACF2CC88F76 /* ZooDBRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D35AD85A182B70211506D64575CCEDE /* ZooDBRowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342EDFC715A2EA4D2594D2E0FC4C4D7B /* ZooBaseBigTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A252178B1508129FC4A9E396CF57720 /* ZooBaseBigTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366215AED6587A8851328868F2EB2EA6 /* ZooHomeHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EDFAE42A3E3A6A9600DDC655AAA315 /* ZooHomeHeadCell.m */; };
+		38F65E0CD2AC55DDDCED4216CEF2DB0D /* Zoo.General-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFCBC8D9A186AFBA96C85CAF841D804 /* Zoo.General-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3920994FE098B638BDAA3311B7C1E853 /* ZooSandboxPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB34FA0B9AA03513571976326BE1060 /* ZooSandboxPlugin.m */; };
+		399EDEC494490B257D971EC9A9865FE5 /* UIColor+Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6247879B3E54EAA251A2EE6366A7B /* UIColor+Zoo.m */; };
+		3C24B478A61FF3DA69D4970C21664643 /* Foundation+Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AAD0C483CDAA523C11FAA4457A47B1 /* Foundation+Zoo.m */; };
+		3F996A53CADB3EE6C00C18170307DE04 /* ZooPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 527EB2D130B13771618AC6BAE7B81931 /* ZooPieChart.m */; };
+		41217C92C89D0805B28E08149B03A71A /* ZooNSUserDefaultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB53FC506D77FF9B11765EAA31405EB5 /* ZooNSUserDefaultsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41C2726643BCBC42B334E3D6D342769C /* ZooDBShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FA848DE9E2F9C316AC44F728C9F5 /* ZooDBShowView.m */; };
+		42DCABC40AC408CB6079EC635162C66A /* ZooNavBarItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C984E714C38659A7767405F836F4BE /* ZooNavBarItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42EA8505451B193AD3CDB8163C877089 /* ZooBaseBigTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B37168D12DFA03C69F6E1CA84F4F2 /* ZooBaseBigTitleView.m */; };
+		43713186516FFC2D57C998FB92F795FC /* Zoo.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6714ECC75ABB421C11F83B868A06EE0 /* Zoo.strings */; };
+		446677353EC50AB137E0D488F5E11676 /* ZooHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A5A0DC07E8143F8B6E95A90BE90C03 /* ZooHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45581552D62E8E4B2D510A2EDD508AE7 /* UIImage+Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D98E5D43C94A34F4AAC296EEB0587 /* UIImage+Zoo.m */; };
+		456B7B8BD45952943757CC67FD0DD54F /* ZooThreadSafeMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AE3A01B69F0D0FB4874C066D2D075B /* ZooThreadSafeMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EAC44C27FB2F6F50BC66C0A65589F1 /* ZooHomeCloseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AE033857CED3EFE3FCA4BAD79E7CB222 /* ZooHomeCloseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4755516EECD22E711DBD0BE566DD648E /* ZooCrashTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D1DB60F3259CD1538FC46F1B98F8EF /* ZooCrashTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47614DFB89A45F444511E71BCB55F8A5 /* ZooH5Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932C76004D7A06EBDC2ACA8108F8CB7 /* ZooH5Plugin.m */; };
+		4C3F7E135A0097A7B0200E96ACE7CA0E /* NSObject+Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B83FEA07BB3C418DEF151028BD8D5 /* NSObject+Zoo.m */; };
+		4C62A384ED499134B73D047BCE222D83 /* ZooAppInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A59233B2D53163A34820DD21572B2 /* ZooAppInfoPlugin.m */; };
+		4D66ECFF6EAE0FD21B8CCD8793ED7BFD /* ZooVisualMagnifierWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F84C873A4C5C6328B1AB7C9B149F4927 /* ZooVisualMagnifierWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EFBA38C3945D85C365A86E89F2E57D8 /* ZooVisualInfoWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAE6E064E3E1EDF929C17612868C9F3 /* ZooVisualInfoWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5067796F5FA7573B3E2D2FE81AF2DFCC /* ZooNSLogListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DC116783DF6BC6B59CEC4CA7C1FCBE /* ZooNSLogListCell.m */; };
+		506B7C43D86BB397B7A93D78984D21F7 /* ZooTimeProfilerCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A35E7A9C49991E0AFFF66BAE186DB /* ZooTimeProfilerCore.c */; };
+		5090AB6C80F58A42EB6E5BAF1CDCF4E5 /* zoo_fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = B5A036D7E08D519940A868BF4BBA198F /* zoo_fishhook.c */; };
+		51D4C1167AFAC40A5790B8A95151EB7C /* ZooThreadSafeMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = D385532FA2600043CC4F55F30B717009 /* ZooThreadSafeMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53C74BCDDE88602330241429522D8A21 /* ZooCrashListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0F4024AF02E6AC88F7AD01D6B72A7 /* ZooCrashListViewController.m */; };
+		53CAEEC998613C1D5AD705E28BD0943A /* ZooToastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F5C2548F0F2C257CF4B82F07249F8 /* ZooToastUtil.m */; };
+		54E28F095D0DECD960B93F43F3DF740A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		553850B0C7C376C03EF180395A728B26 /* ZooDeleteLocalDataPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEE7CEB421F17E72CEED69B957C7B25 /* ZooDeleteLocalDataPlugin.m */; };
+		567B1D2616F0F713F734CADC6D8D52F6 /* ZooManager+General.m in Sources */ = {isa = PBXBuildFile; fileRef = 55186E7D4493E9A191CAC3B7BB76F2B3 /* ZooManager+General.m */; };
+		5F67D0BD4653D74F1705AA459C6313FD /* ZooNSUserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A87D7B9D74C5D5B0ADD6B4DEDAA29A7 /* ZooNSUserDefaultsViewController.m */; };
+		624646713A0E16D56A383D9C530A8E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		625B45092EA7B30771061BFE8D86C315 /* ZooCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7245814A1677B0D655B9982CD31A71 /* ZooCopyLabel.m */; };
+		680CE3730DAE6318823DAED83E17CF21 /* ZooUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A558A45E30E4BA4FA162C093845B6D6A /* ZooUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		698D38A5AE57A8567A234C875C9D032A /* ZooChartAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = F328CEFCCA980F55E26E3310B7387BDD /* ZooChartAxis.m */; };
+		69CFF12A9054AA70D5E1FC2389374C9C /* ZooCacheManager+General.h in Headers */ = {isa = PBXBuildFile; fileRef = F609AE74954E11478FE8C89E59CC391F /* ZooCacheManager+General.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DE7DD87289AAE347AF208B26B749320 /* ZooAppInfoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FBC1B455BA071A4DA020BD3B2E053C /* ZooAppInfoUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F30A901C053F7E85683E9B049DB2390 /* ZooBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D7BC866E0FF16EF7E9643ED2682CA /* ZooBarChart.m */; };
+		704411B0E306F005B96DBADB1C6D4D6A /* ZooNSLogListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134BDA6E61F6779F6BC48A628E750B0E /* ZooNSLogListViewController.m */; };
+		715F599D4376060CAA837C2914350F02 /* ZooManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AD4DE84F9192595391FD29B67D76 /* ZooManager.m */; };
+		7381B88DA6502C718552125A857568A6 /* ZooAppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E5DB2EBE28977E30B45D79B4DB8996 /* ZooAppInfoViewController.m */; };
+		7441B44A6FCDDE17DA3EBBBAD1F657ED /* ZooSandboxPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F13E5208E2B8E8062093E5857DAAF8DF /* ZooSandboxPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7495B90C417817E8B2D5F72FB58B5863 /* Zoo.h in Headers */ = {isa = PBXBuildFile; fileRef = C10C9371627D49B3FDC1610D28F1BFA3 /* Zoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759F0956D6953B1591C8533D8DECE08C /* ZooDeleteLocalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A943B12A219C8BA6743CDA92B475 /* ZooDeleteLocalDataViewController.m */; };
+		77637843DD8CE7251E4D8835A072B79F /* UIView+Zoo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2561576988FFAA80F101BD1D184ED53E /* UIView+Zoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D3BBB2A19997BF76CFC767DE9EB320A /* ZooStringSearchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 130C88A77A3CAFE70AB3295BBFB8E688 /* ZooStringSearchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F08B8BE08D3CDD54A4B8EC5BB9782EA /* ZooCrashListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8001D3EFE928AC07937DF3FFFB0683 /* ZooCrashListCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BD907FE6D981890E116EDB857B72D0 /* ZooBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 709997C35940941A2DAC27483171FB90 /* ZooBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841F6E9A4614B4D97008A8C55F5FE4F8 /* zoo_fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = A615CBEC4772413642C681340FFCF34D /* zoo_fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8651F3F58B42B65C2BF87733A7BC2395 /* ZooDBTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9462CDE0F552E2ABE2A8A7D4CEC6E011 /* ZooDBTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86778C8E05F00A6168EA425EBB45E8A4 /* ZooRouterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F76DF6CC661A41E8036BB4F72683B0A8 /* ZooRouterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87612D451D4E59992FB92A0E1FEA1C2C /* ZooSandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6818AA02E13137D61F12FDB243767A09 /* ZooSandboxViewController.m */; };
+		89E76E2319D861441C05D3B5748B2C37 /* ZooNSLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D300EF168867C6BB6E22382E9B369 /* ZooNSLogManager.m */; };
+		8B49B54BDF7C58FDCDEA28E4C0BB518D /* ZooAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07760B0BF71F91297A999BAA6FED3273 /* ZooAlertUtil.m */; };
+		8BEB048097332E1EE3000A341791518C /* ZooHomeCloseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0FB0147E2E190A84C5BC77B87A3786 /* ZooHomeCloseCell.m */; };
+		8E2B3453CF0A291D86DF77C1F37D9EC9 /* ZooDefaultWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0BE239F7A6D1819EB23EE3C5A5A733 /* ZooDefaultWebViewController.m */; };
+		8FC13B6048EA3502D5B8FC208BBF9865 /* ZooSanboxDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ED732AD9DCB7C765542B3AFC532D1DA7 /* ZooSanboxDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904A0A8D301E6B86C8AF6457F307F84A /* ZooXAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B4100DE68B6A0D4A365BFBC0EB243B /* ZooXAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91BCC96F91800CAA03C0222B9DECBAB3 /* ZooStringSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95330AE140DB47B32BFA1F2527CF9A /* ZooStringSearchView.m */; };
+		9430968AF4D2260BD2F727ECA9FF2E47 /* ZooEntryWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 103409F1E6C77F1A1999D815F3D89F6C /* ZooEntryWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95193CD4B98731A06CEEE32F6D09C83F /* ZooNetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9442401E2AE642FDB883906716255F /* ZooNetworkUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BEF5D3EE8B2CDA548C77D7E3E3B490 /* ZooDeleteLocalDataPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA94D1AA41F935AF34B5EC98C1CCE4B /* ZooDeleteLocalDataPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E3EFD35AF1B9295231290AB88F40CA /* ZooYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = AC701D5C8A966896C672A896330FD047 /* ZooYAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9610DA94A9197A388E76EC3CF532A812 /* ZooQRScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 145A7205931A5474807E02578C9F1D7A /* ZooQRScanView.m */; };
+		97499B5A8FFF20F2DBDC0517EA53A8A6 /* ZooDBCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD28811C92AC212C2437C5D09EF2C39 /* ZooDBCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B792C72138CFAD6909ACAA3FC1B21A /* ZooNSLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63114415018498EAF59F10E432E8C4AF /* ZooNSLogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990327784E3785DDCC42BE885B14A1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C54D8841E28C1DE9FC9FF053E3731F1 /* ZooQRCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A554A27F9B08BE9E54A5AC2F9938D125 /* ZooQRCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D75D1F374273AB1B6F4921356438780 /* ZooManager+General.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A971C4E5935B8B7CA5F298BE2FEE52 /* ZooManager+General.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA802AC402017A8BD74B49E2B05E6F5 /* ZooHomeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F667461901B88D4AF8D5617E52368F1 /* ZooHomeWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FF60F65FC834E8D2521842A42FAE539 /* ZooThreadSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0EA9DBF8B2B1C5C8B4041F71C29DA2 /* ZooThreadSafeMutableArray.m */; };
+		A08218CD033D8C56F00A8B59C3C490D3 /* ZooChart.h in Headers */ = {isa = PBXBuildFile; fileRef = DBED0F4C1C8F739106D0A8035C1D73DC /* ZooChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F1B455775732D032177D3BD3856380 /* ZooCrashUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF3DE95C321AFA572895CE27C436FAF /* ZooCrashUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A297CBD908E3AF85723A45A94AC0947C /* ZooCrashSignalExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FEA03CD7BCA19EE63EA1A58F9FF84E /* ZooCrashSignalExceptionHandler.m */; };
+		A552F1CAD6566211EC47E9D5914D5E3C /* ZooAppInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A5D1805A18E4F97734086E7BC684C /* ZooAppInfoCell.m */; };
+		A759331855D9B978B66750215644DAB0 /* Zoo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1354D6E57EE8BC40B00D18C28CFB22 /* Zoo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79D2935D2FE0D17DA9EB9485C02E6E2 /* ZooYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 535C6B5503DDEDB2AACF24EA7F0602E2 /* ZooYAxis.m */; };
+		A7ABD248B0BEC634ED6FE57C94BC54E0 /* ZooAppInfoPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A358DB96A01DADA97AEF21762A76CDD /* ZooAppInfoPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A85BA02078F961A287F8DCDB08AF85E2 /* Pods-Zoo.General_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918436C5F9AF285D8411EC884FDF845E /* Pods-Zoo.General_Tests-dummy.m */; };
+		ACB0DD5993A68392B74F4F31EBD73C61 /* ZooNSUserDefaultsEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFD74823F5EBFAEB5788561CA5B871A /* ZooNSUserDefaultsEditViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACE465C915780E4294FEB43292C10106 /* Zoo.General-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE700B4538C56A1F84518EF7B6C04E /* Zoo.General-dummy.m */; };
+		ADDF6276734AD0737F7A5D625DD729A1 /* ZooDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8713CCCBAF622F1533348D619D6F6966 /* ZooDBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF65B255416B96DBAD7B8C8786495BC /* ZooAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB4D50EDEDD4747D111D943D46A96A /* ZooAlertUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF1883B80DCF1FEA7C1C7A8D24E407D8 /* ZooCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 676671CD05381DD6D0C743897589C8DF /* ZooCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA4E7BC25152ABCCDF268EE602854CF /* ZooUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1C37C31AC3FF89BFB80DBD7242DE7F /* ZooUtil.m */; };
+		B09742B183675A58C1FFA7CFE3AEF897 /* ZooSanboxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF5580070BD4BEBDDDCEA92927FAEDB /* ZooSanboxDetailViewController.m */; };
+		B172643006FC9C0EAFDBC43775415CAF /* ZooCellButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C4BE407953E081385CA4C1D96BEF48 /* ZooCellButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F5E1B22B2E42713F0D4BB27F643672 /* ZooCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DCF9FADC7CE4D463063F66D6F083E6 /* ZooCacheManager.m */; };
+		B615F5058355FADF8F5058C927DA0A6C /* ZooStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5194BE024632602E186F362D2A15D3B2 /* ZooStatusBarViewController.m */; };
+		B80A20098722F569470988877BCF5C63 /* Zooi18NUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC18DE4D9E8775731C8E06F803FC81 /* Zooi18NUtil.m */; };
+		B9984585F0A2C24964FC1A26CE2620AB /* ZooBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B309A79FA0D519DBFB62C6D5D0350DAC /* ZooBacktraceLogger.m */; };
+		B9BC0D0CB099043A1A411447B1D3E1EC /* ZooDBRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F86E3C65A7817D3E4C4A47A79935C2 /* ZooDBRowView.m */; };
+		BD5B400D0EB3E505905CE2616489AEAC /* ZooCrashUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADCCECE4DF839B414F66A1AF3A6DAB /* ZooCrashUncaughtExceptionHandler.m */; };
+		C661C402A5B2470923064161F4536BF0 /* ZooToastUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E4F19E6F67395593627376CD0ECAC6 /* ZooToastUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6633F39080D6E284969664ABAFC1A5A /* ZooHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6516D2DDFBD27A3B5C56D171A148B34F /* ZooHomeCell.m */; };
+		C709A49436199EA5D70F8E1D17932875 /* ZooDBShowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E436CC7F545DF1E6853403376C4FA9 /* ZooDBShowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C70B7C4DEC7BAF96D4A69A24EC6C152C /* ZooManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B86616112D1C1618EF4E35446EDD16BC /* ZooManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7BF39583F34FA6CE17F261990DFFAA3 /* ZooTimeProfilerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D1803E36730354C0C885650287F43B72 /* ZooTimeProfilerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8ECFFCF918426D43B26FAD0B33B80F0 /* ZooNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3D9F3650806767810189D8C3795AA /* ZooNetworkUtil.m */; };
+		CA5F6BB26003B0DA7C73757004EA23AE /* UIView+Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28323DC47C3D96D61C5B979E5B4E75C4 /* UIView+Zoo.m */; };
+		CA8F93C6DA9957947C5EE81921B5C9C7 /* ZooNSLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F97B50F11AF6F7284CB50D51FAEA122 /* ZooNSLogViewController.m */; };
+		CB813A83C570F3200AA7CD0E92F16F52 /* ZooCrashPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D404B40AE4220F22A135D36DE3B4AAF0 /* ZooCrashPlugin.m */; };
+		CBBE91E16E774989C63564F1A98762CA /* ZooBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DB71CAA8F8EB23F21765C10358783EC5 /* ZooBacktraceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2D7D2E852FECDADE1F25CB8C159670 /* ZooNSLogListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D32F74AEBDBB50C617C088952318CCA /* ZooNSLogListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD29E81A13CFC44BA5AED95282538F7D /* ZooCrashListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161FC3BDED595C648943A0EDD00888D2 /* ZooCrashListCell.m */; };
+		CD4D8AD88F5FC4AD6E5D39794A4A092B /* ZooAppSettingPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4C3DE2764C4024EBE240588C8174D /* ZooAppSettingPlugin.m */; };
+		CE7516D72DA47D2EDB6426A8741BF3CA /* ZooAppInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F145F9DC0E70169B31C122B29B9B888 /* ZooAppInfoUtil.m */; };
+		CF676E3A32E57D8305FE6177A1926FDF /* ZooSandboxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEBFCD2661BE6B464D662AACD43F56A /* ZooSandboxModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D025C49AE7AEB30C8768D31F8109B2F6 /* ZooRouterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD734B0A986EB69811031D2EF5A92C2 /* ZooRouterPlugin.m */; };
+		D09D656B9651BB9B116B529B2643B532 /* ZooH5Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D028F9E2D1080787EA3CB6021FD047 /* ZooH5Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2342C0B97E00D27DBFB045B69E4C3E7 /* ZooThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2770CBFD27CBDFE7CA77F47F1D9617CE /* ZooThreadSafeMutableDictionary.m */; };
+		D31A051528A4A979293EA8FCCDC0A110 /* ZooAppSettingPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F25E91C8CC136EA70AB2D50A570EDD /* ZooAppSettingPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3B1739F689F0ED52AD11E7320F6C5E5 /* ZooCellInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 465109A626174B03C7399831DE66C479 /* ZooCellInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43EA46507DEF74D4A7E30C34A094833 /* ZooHomeFootCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B294BE5CA749FDD9390A607ED34E7F7C /* ZooHomeFootCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5295F00DDB9BA7A98968F504460E7B8 /* ZooHomeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 350FBAEB3DE063E7240EB703ADC548F9 /* ZooHomeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67FE965AACB93CC43984740DA559507 /* ZooDeleteLocalDataViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07567B979E08D379EBAAC239F3B13D /* ZooDeleteLocalDataViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D77FBD2B7D92BD1B5977AB36DC8A27BB /* ZooStatusBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0135D1ECD75C1AC31DA9D946E92799B1 /* ZooStatusBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D864771D793D6845C5755EE28D11FDA8 /* ZooHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 483FCFC1A70E693BF2758BE280583F9A /* ZooHomeWindow.m */; };
+		D962989935D2CBFE46E6521CE2295489 /* ZooNSLogModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3D249B5BCD8FB173A5CDF95F42C922 /* ZooNSLogModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D963AED954CED69ACC075921529712C5 /* ZooHomeFootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4D33349EEBEB089FE8EBA014D72A06 /* ZooHomeFootCell.m */; };
+		D96D43DCD3A8927FE280940485B24CCA /* ZooRouterPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F070FD24C2A319E5EE1A430F02A655B /* ZooRouterPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3FF32F0D356FE3AE034DCF9B4F028C /* ZooAppInfoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FC0D9A3E518DBB4A0A02C7D3E99341 /* ZooAppInfoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5B32BF2E17BB6B41C0293DD6B0F343 /* ZooNSLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 198B049A029025B695BD678901D46651 /* ZooNSLogModel.m */; };
+		DCED06AF406BE4405F167730AD4B7CE2 /* ZooVisualInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD19340C06090CBEB928CCAB8F6EAEE /* ZooVisualInfoWindow.m */; };
+		DD8AC2072F7EE9FB2A20BC692B76E174 /* ZooChartAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC2F7AEC2446D30EACE962445FD7A23 /* ZooChartAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEBEAE77898CD0BE534CAA75B9BAC7FB /* ZooNSUserDefaultsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 868AA6E620520FF50173E4B2013FE41D /* ZooNSUserDefaultsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E088E9DB8D7A920C71BFCDD1313B8EB1 /* NSObject+Zoo.h in Headers */ = {isa = PBXBuildFile; fileRef = E33FF9A22E5F312CD3A3CAD3E39E2BFA /* NSObject+Zoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34C9B0232A864A648E3F96BD475760A /* ZooH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA957449AE3E7D46F32FB3DA53D014F /* ZooH5ViewController.m */; };
+		E4805C68751FE4C1E1C070A0A1DF7AED /* ZooEntryWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2D67F8F5A7F364C196B7D7D1CD6B1 /* ZooEntryWindow.m */; };
+		E48348A7A76DF3104646E628E246A286 /* ZooCrashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 935CCC2C4B3488DD0E63B1D1B9543AEA /* ZooCrashViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F5D173BF4B359D00B12896FA7E6245 /* ZooChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DC953148A40C010F7344192089D45 /* ZooChartDataItem.m */; };
+		E63285D58B5F6D50711A369E18E001CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E9758306D065F3FB44B636915C1AC6AB /* ZooDBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A382CC472BC3B44DF28F6B1C463F3406 /* ZooDBTableViewController.m */; };
+		EA297AC9D90BDCD19918026CC81369DE /* Zoo-Zoo in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BABD20FD79A10CBE7046B898D7555 /* Zoo-Zoo */; };
+		EA9ABCCB04180B650DA1943BAE355093 /* ZooNSLogPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 136BA41BEEF02C4305B51D7C69FF4A6C /* ZooNSLogPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAAB360C0539456B0D080D930C9F198F /* UIColor+Zoo.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC9B36D7A1BBFB7D629ABDCC72E9960 /* UIColor+Zoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7C8E9011F6BF1125A5FB2BC083A1D5 /* ZooCrashSignalExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EC02BBAAB7B3499D9A4191D1664A96 /* ZooCrashSignalExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD3A35B644C10348098D3A87A7DCF2E /* ZooSandboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 24648AF3432E5FB4A9D10D82C7C52890 /* ZooSandboxViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F04F9B97CC4927F3D19348368130F116 /* UIViewController+Zoo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F58CEB8ACCF194ECA39928687703296 /* UIViewController+Zoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1895AE211F217E5351B80D080B1AF80 /* ZooCrashTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F22210D748A193206C952E2FF314C4 /* ZooCrashTool.m */; };
+		F5052D0E4EA6D4D0788A5AADB173C930 /* Zooi18NUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 020AA8A2ED4978E7B89F0DCDEFF8F1EF /* Zooi18NUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5325EBCD75A8D685E71A7A9AA58EF7B /* Pods-Zoo.General_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7E6001143DFC7E4A818C75D2FBCFE9 /* Pods-Zoo.General_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5344C9BCF245AF8D36144735A4A084F /* ZooRouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2057FDD0D661610994DD1DDB7E8BCA /* ZooRouterViewController.m */; };
+		F5DE7E046AB09BF4F0316C734BE57124 /* ZooH5ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF91E2410E12216456D9E5D107A4008 /* ZooH5ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F55F51F1ECDCAA72470C3CCF32D2AD /* ZooXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FECE02CC602464B1D81DD14FF56A4D9 /* ZooXAxis.m */; };
+		F716F3DD676B35D25A5529E9ADBE4B56 /* ZooNSLogPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 29015E15A0D52DB4CE25152DFE2427DD /* ZooNSLogPlugin.m */; };
+		F7EC98A186AFB49E0B4D584815B3594C /* ZooSandboxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D039F74F3740FE7619DDD51FDBA7EE72 /* ZooSandboxCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8935C7A48F49F28A6F3976146B2ABA /* ZooNSUserDefaultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F9D65BF1667A304CF0C8CF72B82F0 /* ZooNSUserDefaultsModel.m */; };
+		FED58140DA8BA04E87562B59101CC0D6 /* ZooQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBB6BD750AD84C35F87E580F5C0ED2 /* ZooQRCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A9D67BE4047D133C6D6CC68A41CB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE5A84A1AB4DEAF9542B4E0AF544520;
+			remoteInfo = Zoo;
+		};
+		37C649FC2216C4903088CBDD8D43D68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE5A84A1AB4DEAF9542B4E0AF544520;
+			remoteInfo = Zoo;
+		};
+		CE27E38E8F6B4BCFAA95D9E5EBEBF6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8AAC40F367A05DD18F26745F21389B;
+			remoteInfo = "Zoo-Zoo";
+		};
+		EF3CC91FA72F728211C25BCA6AEDA400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BBC3F7501C0F44072C92EB002A971F0;
+			remoteInfo = "Pods-Zoo.General_Example";
+		};
+		F7C000CB6E78772B27937885D63D8EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B69158ECA6ABAF7CDEDA6508B55BCAEA;
+			remoteInfo = Zoo.General;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009FFFD48F231C8B2D0D8831A83D3F73 /* ZooCellSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooCellSwitch.h; path = Zoo/Classes/CommonUI/CellSwitch/ZooCellSwitch.h; sourceTree = "<group>"; };
+		00BCB43560B0A0522BA41B77B74AB783 /* ZooDBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDBManager.m; sourceTree = "<group>"; };
+		0135D1ECD75C1AC31DA9D946E92799B1 /* ZooStatusBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooStatusBarViewController.h; path = Zoo/Classes/Base/ZooStatusBarViewController.h; sourceTree = "<group>"; };
+		020AA8A2ED4978E7B89F0DCDEFF8F1EF /* Zooi18NUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zooi18NUtil.h; path = Zoo/Classes/Util/Zooi18NUtil.h; sourceTree = "<group>"; };
+		03D721BC886F43F766390073128286A1 /* ZooCellInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooCellInput.m; path = Zoo/Classes/CommonUI/CellInput/ZooCellInput.m; sourceTree = "<group>"; };
+		07760B0BF71F91297A999BAA6FED3273 /* ZooAlertUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooAlertUtil.m; path = Zoo/Classes/CommonUI/Alert/ZooAlertUtil.m; sourceTree = "<group>"; };
+		08AF83B98939A97986682E49CF59885E /* ZooBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooBaseViewController.h; path = Zoo/Classes/Base/ZooBaseViewController.h; sourceTree = "<group>"; };
+		090F9D65BF1667A304CF0C8CF72B82F0 /* ZooNSUserDefaultsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSUserDefaultsModel.m; sourceTree = "<group>"; };
+		0A2057FDD0D661610994DD1DDB7E8BCA /* ZooRouterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooRouterViewController.m; sourceTree = "<group>"; };
+		0A341ABFCCADD165641568810849EDE7 /* ZooCacheManager+General.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZooCacheManager+General.m"; sourceTree = "<group>"; };
+		0AAE6E064E3E1EDF929C17612868C9F3 /* ZooVisualInfoWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooVisualInfoWindow.h; path = Zoo/Classes/CommonUI/Visual/ZooVisualInfoWindow.h; sourceTree = "<group>"; };
+		0CC748F361A5F9CA25EBA8939CEEF210 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Zoo/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		0D59FA848DE9E2F9C316AC44F728C9F5 /* ZooDBShowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDBShowView.m; sourceTree = "<group>"; };
+		0DD2D67F8F5A7F364C196B7D7D1CD6B1 /* ZooEntryWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooEntryWindow.m; path = Zoo/Classes/Entry/Entry/ZooEntryWindow.m; sourceTree = "<group>"; };
+		0F070FD24C2A319E5EE1A430F02A655B /* ZooRouterPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooRouterPlugin.h; sourceTree = "<group>"; };
+		0F5F5C2548F0F2C257CF4B82F07249F8 /* ZooToastUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooToastUtil.m; path = Zoo/Classes/CommonUI/Toast/ZooToastUtil.m; sourceTree = "<group>"; };
+		0FE02619ABFDA42F76D21FDEEB23A21E /* Pods-Zoo.General_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zoo.General_Tests-umbrella.h"; sourceTree = "<group>"; };
+		103409F1E6C77F1A1999D815F3D89F6C /* ZooEntryWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooEntryWindow.h; path = Zoo/Classes/Entry/Entry/ZooEntryWindow.h; sourceTree = "<group>"; };
+		1080C8AF369FBF6EE34606056400866C /* Zoo.General.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zoo.General.modulemap; sourceTree = "<group>"; };
+		130C88A77A3CAFE70AB3295BBFB8E688 /* ZooStringSearchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooStringSearchView.h; path = Zoo/Classes/CommonUI/Search/ZooStringSearchView.h; sourceTree = "<group>"; };
+		134BDA6E61F6779F6BC48A628E750B0E /* ZooNSLogListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSLogListViewController.m; sourceTree = "<group>"; };
+		136BA41BEEF02C4305B51D7C69FF4A6C /* ZooNSLogPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSLogPlugin.h; sourceTree = "<group>"; };
+		145A7205931A5474807E02578C9F1D7A /* ZooQRScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooQRScanView.m; sourceTree = "<group>"; };
+		161FC3BDED595C648943A0EDD00888D2 /* ZooCrashListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashListCell.m; sourceTree = "<group>"; };
+		198B049A029025B695BD678901D46651 /* ZooNSLogModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSLogModel.m; sourceTree = "<group>"; };
+		19DD674FF4EE557485FB725FCC745CE5 /* Zoo.General */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Zoo.General; path = ZooGeneral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E5411901561C50FAF1B2049AD51087 /* ZooDBCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDBCell.m; sourceTree = "<group>"; };
+		1A6B83FEA07BB3C418DEF151028BD8D5 /* NSObject+Zoo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Zoo.m"; path = "Zoo/Classes/Category/NSObject+Zoo.m"; sourceTree = "<group>"; };
+		1ADBB6BD750AD84C35F87E580F5C0ED2 /* ZooQRCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooQRCodeViewController.m; sourceTree = "<group>"; };
+		1AEE7CEB421F17E72CEED69B957C7B25 /* ZooDeleteLocalDataPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDeleteLocalDataPlugin.m; sourceTree = "<group>"; };
+		1B9442401E2AE642FDB883906716255F /* ZooNetworkUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooNetworkUtil.h; path = Zoo/Classes/Util/ZooNetworkUtil.h; sourceTree = "<group>"; };
+		1D386C83491B37B23667C4487DD75EEB /* ZooStartPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooStartPluginProtocol.h; path = Zoo/Classes/Plugin/Protocol/ZooStartPluginProtocol.h; sourceTree = "<group>"; };
+		1EA94D1AA41F935AF34B5EC98C1CCE4B /* ZooDeleteLocalDataPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDeleteLocalDataPlugin.h; sourceTree = "<group>"; };
+		205D8540424B4C543DE3BFF9D409DFF5 /* ZooCrashPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashPlugin.h; sourceTree = "<group>"; };
+		223640F905925C6BE20D605BD6EB7FD6 /* ZooSandboxModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooSandboxModel.m; path = Zoo/Classes/Plugin/Model/ZooSandboxModel.m; sourceTree = "<group>"; };
+		2423D1C7CDFCDDD916B61D7246C97989 /* Zoo.General.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zoo.General.release.xcconfig; sourceTree = "<group>"; };
+		24648AF3432E5FB4A9D10D82C7C52890 /* ZooSandboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooSandboxViewController.h; sourceTree = "<group>"; };
+		2561576988FFAA80F101BD1D184ED53E /* UIView+Zoo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Zoo.h"; path = "Zoo/Classes/Category/UIView+Zoo.h"; sourceTree = "<group>"; };
+		2770CBFD27CBDFE7CA77F47F1D9617CE /* ZooThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooThreadSafeMutableDictionary.m; path = Zoo/Classes/Util/ZooThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		28323DC47C3D96D61C5B979E5B4E75C4 /* UIView+Zoo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Zoo.m"; path = "Zoo/Classes/Category/UIView+Zoo.m"; sourceTree = "<group>"; };
+		29015E15A0D52DB4CE25152DFE2427DD /* ZooNSLogPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSLogPlugin.m; sourceTree = "<group>"; };
+		29A971C4E5935B8B7CA5F298BE2FEE52 /* ZooManager+General.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZooManager+General.h"; sourceTree = "<group>"; };
+		2A0EA9DBF8B2B1C5C8B4041F71C29DA2 /* ZooThreadSafeMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooThreadSafeMutableArray.m; path = Zoo/Classes/Util/ZooThreadSafeMutableArray.m; sourceTree = "<group>"; };
+		2A358DB96A01DADA97AEF21762A76CDD /* ZooAppInfoPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooAppInfoPlugin.h; sourceTree = "<group>"; };
+		2B95330AE140DB47B32BFA1F2527CF9A /* ZooStringSearchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooStringSearchView.m; path = Zoo/Classes/CommonUI/Search/ZooStringSearchView.m; sourceTree = "<group>"; };
+		2BD28811C92AC212C2437C5D09EF2C39 /* ZooDBCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDBCell.h; sourceTree = "<group>"; };
+		2BD734B0A986EB69811031D2EF5A92C2 /* ZooRouterPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooRouterPlugin.m; sourceTree = "<group>"; };
+		2D0FAE13E964CE1899A785588A49E832 /* Pods-Zoo.General_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zoo.General_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D6AA82E1887D11AE4F05B2884BAFB47 /* UIViewController+Zoo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Zoo.m"; path = "Zoo/Classes/Category/UIViewController+Zoo.m"; sourceTree = "<group>"; };
+		2DCAE62CF182513F83440FF949D64217 /* ZooVisualMagnifierWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooVisualMagnifierWindow.m; path = Zoo/Classes/CommonUI/Visual/ZooVisualMagnifierWindow.m; sourceTree = "<group>"; };
+		2EE7A943B12A219C8BA6743CDA92B475 /* ZooDeleteLocalDataViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDeleteLocalDataViewController.m; sourceTree = "<group>"; };
+		2F97B50F11AF6F7284CB50D51FAEA122 /* ZooNSLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSLogViewController.m; sourceTree = "<group>"; };
+		2FF9A863D11316D50A05ECE5B996DAE5 /* ZooBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooBaseViewController.m; path = Zoo/Classes/Base/ZooBaseViewController.m; sourceTree = "<group>"; };
+		34C9F309D46CE61BD803028241FA0400 /* Zoo.General.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zoo.General.h; path = Zoo.General/Classes/Zoo.General.h; sourceTree = "<group>"; };
+		350FBAEB3DE063E7240EB703ADC548F9 /* ZooHomeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooHomeCell.h; path = Zoo/Classes/Entry/Home/Cell/ZooHomeCell.h; sourceTree = "<group>"; };
+		36F22210D748A193206C952E2FF314C4 /* ZooCrashTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashTool.m; sourceTree = "<group>"; };
+		37B4100DE68B6A0D4A365BFBC0EB243B /* ZooXAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooXAxis.h; path = Zoo/Classes/CommonUI/Charts/ZooXAxis.h; sourceTree = "<group>"; };
+		3A87D7B9D74C5D5B0ADD6B4DEDAA29A7 /* ZooNSUserDefaultsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSUserDefaultsViewController.m; sourceTree = "<group>"; };
+		3AFE4C6FC3249BDEA474B735B619EF42 /* ZooCellButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooCellButton.m; path = Zoo/Classes/CommonUI/CellBtn/ZooCellButton.m; sourceTree = "<group>"; };
+		3C1A5D1805A18E4F97734086E7BC684C /* ZooAppInfoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooAppInfoCell.m; sourceTree = "<group>"; };
+		3D8001D3EFE928AC07937DF3FFFB0683 /* ZooCrashListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashListCell.h; sourceTree = "<group>"; };
+		3EFC18DE4D9E8775731C8E06F803FC81 /* Zooi18NUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Zooi18NUtil.m; path = Zoo/Classes/Util/Zooi18NUtil.m; sourceTree = "<group>"; };
+		3F145F9DC0E70169B31C122B29B9B888 /* ZooAppInfoUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooAppInfoUtil.m; path = Zoo/Classes/Util/ZooAppInfoUtil.m; sourceTree = "<group>"; };
+		3F1D300EF168867C6BB6E22382E9B369 /* ZooNSLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSLogManager.m; sourceTree = "<group>"; };
+		41E6247879B3E54EAA251A2EE6366A7B /* UIColor+Zoo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Zoo.m"; path = "Zoo/Classes/Category/UIColor+Zoo.m"; sourceTree = "<group>"; };
+		43A5A0DC07E8143F8B6E95A90BE90C03 /* ZooHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooHomeViewController.h; path = Zoo/Classes/Entry/Home/ZooHomeViewController.h; sourceTree = "<group>"; };
+		465109A626174B03C7399831DE66C479 /* ZooCellInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooCellInput.h; path = Zoo/Classes/CommonUI/CellInput/ZooCellInput.h; sourceTree = "<group>"; };
+		483FCFC1A70E693BF2758BE280583F9A /* ZooHomeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooHomeWindow.m; path = Zoo/Classes/Entry/Home/ZooHomeWindow.m; sourceTree = "<group>"; };
+		4932C76004D7A06EBDC2ACA8108F8CB7 /* ZooH5Plugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooH5Plugin.m; sourceTree = "<group>"; };
+		4CA957449AE3E7D46F32FB3DA53D014F /* ZooH5ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooH5ViewController.m; sourceTree = "<group>"; };
+		4DEBFCD2661BE6B464D662AACD43F56A /* ZooSandboxModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooSandboxModel.h; path = Zoo/Classes/Plugin/Model/ZooSandboxModel.h; sourceTree = "<group>"; };
+		4E105A962043D80EE8D58E8B45EDA57E /* Zoo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zoo-dummy.m"; sourceTree = "<group>"; };
+		4F43B7BF2F3FFAAD49A2EBD001CB5201 /* ZooAppInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooAppInfoViewController.h; sourceTree = "<group>"; };
+		50C3AD4DE84F9192595391FD29B67D76 /* ZooManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooManager.m; path = Zoo/Classes/Manager/ZooManager.m; sourceTree = "<group>"; };
+		5134AF8CC3E1FE9CE828C2A27EE92E71 /* ZooChartDataItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooChartDataItem.h; path = Zoo/Classes/CommonUI/Charts/ZooChartDataItem.h; sourceTree = "<group>"; };
+		5194BE024632602E186F362D2A15D3B2 /* ZooStatusBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooStatusBarViewController.m; path = Zoo/Classes/Base/ZooStatusBarViewController.m; sourceTree = "<group>"; };
+		520A59233B2D53163A34820DD21572B2 /* ZooAppInfoPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooAppInfoPlugin.m; sourceTree = "<group>"; };
+		522DC953148A40C010F7344192089D45 /* ZooChartDataItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooChartDataItem.m; path = Zoo/Classes/CommonUI/Charts/ZooChartDataItem.m; sourceTree = "<group>"; };
+		527EB2D130B13771618AC6BAE7B81931 /* ZooPieChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooPieChart.m; path = Zoo/Classes/CommonUI/Charts/ZooPieChart.m; sourceTree = "<group>"; };
+		535C6B5503DDEDB2AACF24EA7F0602E2 /* ZooYAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooYAxis.m; path = Zoo/Classes/CommonUI/Charts/ZooYAxis.m; sourceTree = "<group>"; };
+		53E4F19E6F67395593627376CD0ECAC6 /* ZooToastUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooToastUtil.h; path = Zoo/Classes/CommonUI/Toast/ZooToastUtil.h; sourceTree = "<group>"; };
+		55186E7D4493E9A191CAC3B7BB76F2B3 /* ZooManager+General.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZooManager+General.m"; sourceTree = "<group>"; };
+		55B0F4024AF02E6AC88F7AD01D6B72A7 /* ZooCrashListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashListViewController.m; sourceTree = "<group>"; };
+		55FBC1B455BA071A4DA020BD3B2E053C /* ZooAppInfoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooAppInfoUtil.h; path = Zoo/Classes/Util/ZooAppInfoUtil.h; sourceTree = "<group>"; };
+		585EC44C223B60F66E58428C3041923A /* Pods-Zoo.General_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zoo.General_Example.modulemap"; sourceTree = "<group>"; };
+		5A252178B1508129FC4A9E396CF57720 /* ZooBaseBigTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooBaseBigTitleView.h; path = Zoo/Classes/Base/View/ZooBaseBigTitleView.h; sourceTree = "<group>"; };
+		5D68FC23DB2C918ECA24D010E16120E7 /* Zoo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Zoo.strings; path = en.lproj/Zoo.strings; sourceTree = "<group>"; };
+		5EF3DE95C321AFA572895CE27C436FAF /* ZooCrashUncaughtExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		5F11614385268EB0AB999C7915CEA254 /* Pods-Zoo.General_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoo.General_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F5730EF55366314EC70646783EE0C7F /* ZooCrashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashViewController.m; sourceTree = "<group>"; };
+		5F58CEB8ACCF194ECA39928687703296 /* UIViewController+Zoo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Zoo.h"; path = "Zoo/Classes/Category/UIViewController+Zoo.h"; sourceTree = "<group>"; };
+		63114415018498EAF59F10E432E8C4AF /* ZooNSLogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSLogViewController.h; sourceTree = "<group>"; };
+		63AB4D50EDEDD4747D111D943D46A96A /* ZooAlertUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooAlertUtil.h; path = Zoo/Classes/CommonUI/Alert/ZooAlertUtil.h; sourceTree = "<group>"; };
+		63E436CC7F545DF1E6853403376C4FA9 /* ZooDBShowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDBShowView.h; sourceTree = "<group>"; };
+		63EC02BBAAB7B3499D9A4191D1664A96 /* ZooCrashSignalExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashSignalExceptionHandler.h; sourceTree = "<group>"; };
+		648E31B265C03E0D96BDCB07AF8F5CBF /* UIImage+Zoo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Zoo.h"; path = "Zoo/Classes/Category/UIImage+Zoo.h"; sourceTree = "<group>"; };
+		6516D2DDFBD27A3B5C56D171A148B34F /* ZooHomeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooHomeCell.m; path = Zoo/Classes/Entry/Home/Cell/ZooHomeCell.m; sourceTree = "<group>"; };
+		65AAD0C483CDAA523C11FAA4457A47B1 /* Foundation+Zoo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Zoo.m"; path = "Zoo/Classes/Category/Foundation+Zoo.m"; sourceTree = "<group>"; };
+		676671CD05381DD6D0C743897589C8DF /* ZooCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooCacheManager.h; path = Zoo/Classes/Cache/ZooCacheManager.h; sourceTree = "<group>"; };
+		6818AA02E13137D61F12FDB243767A09 /* ZooSandboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooSandboxViewController.m; sourceTree = "<group>"; };
+		6A1A35E7A9C49991E0AFFF66BAE186DB /* ZooTimeProfilerCore.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ZooTimeProfilerCore.c; path = Zoo/Classes/Util/TimeProfiler/ZooTimeProfilerCore.c; sourceTree = "<group>"; };
+		6BC3BECFF5941E560F240BEA5D51EE26 /* Pods-Zoo.General_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zoo.General_Tests.modulemap"; sourceTree = "<group>"; };
+		6CF5580070BD4BEBDDDCEA92927FAEDB /* ZooSanboxDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooSanboxDetailViewController.m; sourceTree = "<group>"; };
+		6EA6CA6AEFDF81F1E0D1373CBF977DDD /* Zoo.General-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zoo.General-prefix.pch"; sourceTree = "<group>"; };
+		6F07567B979E08D379EBAAC239F3B13D /* ZooDeleteLocalDataViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDeleteLocalDataViewController.h; sourceTree = "<group>"; };
+		709997C35940941A2DAC27483171FB90 /* ZooBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooBarChart.h; path = Zoo/Classes/CommonUI/Charts/ZooBarChart.h; sourceTree = "<group>"; };
+		72DC116783DF6BC6B59CEC4CA7C1FCBE /* ZooNSLogListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSLogListCell.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C3D9F3650806767810189D8C3795AA /* ZooNetworkUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooNetworkUtil.m; path = Zoo/Classes/Util/ZooNetworkUtil.m; sourceTree = "<group>"; };
+		7425501FB6155C1D3178A7222293D0B5 /* Zoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zoo.release.xcconfig; sourceTree = "<group>"; };
+		79ADCCECE4DF839B414F66A1AF3A6DAB /* ZooCrashUncaughtExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		7D32F74AEBDBB50C617C088952318CCA /* ZooNSLogListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSLogListViewController.h; sourceTree = "<group>"; };
+		7FECE02CC602464B1D81DD14FF56A4D9 /* ZooXAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooXAxis.m; path = Zoo/Classes/CommonUI/Charts/ZooXAxis.m; sourceTree = "<group>"; };
+		7FFCBC8D9A186AFBA96C85CAF841D804 /* Zoo.General-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zoo.General-umbrella.h"; sourceTree = "<group>"; };
+		81E5DB2EBE28977E30B45D79B4DB8996 /* ZooAppInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooAppInfoViewController.m; sourceTree = "<group>"; };
+		81FC0D9A3E518DBB4A0A02C7D3E99341 /* ZooAppInfoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooAppInfoCell.h; sourceTree = "<group>"; };
+		83F86E3C65A7817D3E4C4A47A79935C2 /* ZooDBRowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDBRowView.m; sourceTree = "<group>"; };
+		849D1A3E287D6400483CED92CF296C5A /* Pods-Zoo.General_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zoo.General_Example"; path = Pods_Zoo_General_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C984E714C38659A7767405F836F4BE /* ZooNavBarItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooNavBarItemModel.h; path = Zoo/Classes/Base/ZooNavBarItemModel.h; sourceTree = "<group>"; };
+		84EDFAE42A3E3A6A9600DDC655AAA315 /* ZooHomeHeadCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooHomeHeadCell.m; path = Zoo/Classes/Entry/Home/Cell/ZooHomeHeadCell.m; sourceTree = "<group>"; };
+		868AA6E620520FF50173E4B2013FE41D /* ZooNSUserDefaultsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSUserDefaultsModel.h; sourceTree = "<group>"; };
+		8713CCCBAF622F1533348D619D6F6966 /* ZooDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDBManager.h; sourceTree = "<group>"; };
+		87DCF9FADC7CE4D463063F66D6F083E6 /* ZooCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooCacheManager.m; path = Zoo/Classes/Cache/ZooCacheManager.m; sourceTree = "<group>"; };
+		8960D58281686FAC3F42F0D743F678D4 /* Pods-Zoo.General_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zoo.General_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B9EA521D141D9B9856BA25AA5B2F455 /* Zoo.General.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zoo.General.debug.xcconfig; sourceTree = "<group>"; };
+		8D2B37168D12DFA03C69F6E1CA84F4F2 /* ZooBaseBigTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooBaseBigTitleView.m; path = Zoo/Classes/Base/View/ZooBaseBigTitleView.m; sourceTree = "<group>"; };
+		8EAD2A7A6253876BA39FE1EFF5CA91B0 /* ZooNSUserDefaultsEditViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSUserDefaultsEditViewController.m; sourceTree = "<group>"; };
+		8F667461901B88D4AF8D5617E52368F1 /* ZooHomeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooHomeWindow.h; path = Zoo/Classes/Entry/Home/ZooHomeWindow.h; sourceTree = "<group>"; };
+		8FE11CD4F225E900EB91D4FD08F1D612 /* ZooQRScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooQRScanView.h; sourceTree = "<group>"; };
+		9075C448FD64F775EFC113EFC8F4B6F8 /* Zoo.General.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Zoo.General.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		918436C5F9AF285D8411EC884FDF845E /* Pods-Zoo.General_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zoo.General_Tests-dummy.m"; sourceTree = "<group>"; };
+		935CCC2C4B3488DD0E63B1D1B9543AEA /* ZooCrashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashViewController.h; sourceTree = "<group>"; };
+		9462CDE0F552E2ABE2A8A7D4CEC6E011 /* ZooDBTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDBTableViewController.h; sourceTree = "<group>"; };
+		95D1DB60F3259CD1538FC46F1B98F8EF /* ZooCrashTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashTool.h; sourceTree = "<group>"; };
+		96A756C211B870C969BE7810D03A259E /* Pods-Zoo.General_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zoo.General_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97852A11F5BCE9A89C72A4B9AA8E4CE4 /* ZooDefaultWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooDefaultWebViewController.h; path = Zoo/Classes/CommonUI/WebView/ZooDefaultWebViewController.h; sourceTree = "<group>"; };
+		9D35AD85A182B70211506D64575CCEDE /* ZooDBRowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooDBRowView.h; sourceTree = "<group>"; };
+		9D7BABD20FD79A10CBE7046B898D7555 /* Zoo-Zoo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Zoo-Zoo"; path = Zoo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B4C3DE2764C4024EBE240588C8174D /* ZooAppSettingPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooAppSettingPlugin.m; sourceTree = "<group>"; };
+		A2BBE58FF854521C3FC413E107C29D7B /* ZooPieChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooPieChart.h; path = Zoo/Classes/CommonUI/Charts/ZooPieChart.h; sourceTree = "<group>"; };
+		A382CC472BC3B44DF28F6B1C463F3406 /* ZooDBTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooDBTableViewController.m; sourceTree = "<group>"; };
+		A3F25E91C8CC136EA70AB2D50A570EDD /* ZooAppSettingPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooAppSettingPlugin.h; sourceTree = "<group>"; };
+		A412E7D958AB5EC84A2B347F0A0F1B2A /* Zoo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Zoo.strings; path = "zh-Hans.lproj/Zoo.strings"; sourceTree = "<group>"; };
+		A44BC854A210A2B8326D2F2571152670 /* ZooNavBarItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooNavBarItemModel.m; path = Zoo/Classes/Base/ZooNavBarItemModel.m; sourceTree = "<group>"; };
+		A554A27F9B08BE9E54A5AC2F9938D125 /* ZooQRCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooQRCodeViewController.h; sourceTree = "<group>"; };
+		A558A45E30E4BA4FA162C093845B6D6A /* ZooUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooUtil.h; path = Zoo/Classes/Util/ZooUtil.h; sourceTree = "<group>"; };
+		A615CBEC4772413642C681340FFCF34D /* zoo_fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zoo_fishhook.h; path = Zoo/Classes/Util/fishhook/zoo_fishhook.h; sourceTree = "<group>"; };
+		A986CC2AF3AD96BB039A33198F11FD77 /* Zoo.General-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zoo.General-Info.plist"; sourceTree = "<group>"; };
+		A9C4BE407953E081385CA4C1D96BEF48 /* ZooCellButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooCellButton.h; path = Zoo/Classes/CommonUI/CellBtn/ZooCellButton.h; sourceTree = "<group>"; };
+		AA1354D6E57EE8BC40B00D18C28CFB22 /* Zoo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zoo-umbrella.h"; sourceTree = "<group>"; };
+		AABB0416A4BE1689497A93552FF9E559 /* ZooHomeHeadCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooHomeHeadCell.h; path = Zoo/Classes/Entry/Home/Cell/ZooHomeHeadCell.h; sourceTree = "<group>"; };
+		ABC8366AA4BD1C079462B7DFAC783C80 /* Pods-Zoo.General_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoo.General_Example-Info.plist"; sourceTree = "<group>"; };
+		AC701D5C8A966896C672A896330FD047 /* ZooYAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooYAxis.h; path = Zoo/Classes/CommonUI/Charts/ZooYAxis.h; sourceTree = "<group>"; };
+		AE033857CED3EFE3FCA4BAD79E7CB222 /* ZooHomeCloseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooHomeCloseCell.h; path = Zoo/Classes/Entry/Home/Cell/ZooHomeCloseCell.h; sourceTree = "<group>"; };
+		AF7E6001143DFC7E4A818C75D2FBCFE9 /* Pods-Zoo.General_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zoo.General_Example-umbrella.h"; sourceTree = "<group>"; };
+		B294BE5CA749FDD9390A607ED34E7F7C /* ZooHomeFootCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooHomeFootCell.h; path = Zoo/Classes/Entry/Home/Cell/ZooHomeFootCell.h; sourceTree = "<group>"; };
+		B2D9E528C0A324F89B7CD5C96D0AF480 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B2FEA03CD7BCA19EE63EA1A58F9FF84E /* ZooCrashSignalExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashSignalExceptionHandler.m; sourceTree = "<group>"; };
+		B309A79FA0D519DBFB62C6D5D0350DAC /* ZooBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooBacktraceLogger.m; path = Zoo/Classes/Util/BSBacktraceLogger/ZooBacktraceLogger.m; sourceTree = "<group>"; };
+		B5425A913DF3C6037CA2762D182E8D4D /* Pods-Zoo.General_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoo.General_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A036D7E08D519940A868BF4BBA198F /* zoo_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zoo_fishhook.c; path = Zoo/Classes/Util/fishhook/zoo_fishhook.c; sourceTree = "<group>"; };
+		B86616112D1C1618EF4E35446EDD16BC /* ZooManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooManager.h; path = Zoo/Classes/Manager/ZooManager.h; sourceTree = "<group>"; };
+		BA36AD089C938D6CDB23D07F8808148D /* ZooHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooHomeViewController.m; path = Zoo/Classes/Entry/Home/ZooHomeViewController.m; sourceTree = "<group>"; };
+		BB1C37C31AC3FF89BFB80DBD7242DE7F /* ZooUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooUtil.m; path = Zoo/Classes/Util/ZooUtil.m; sourceTree = "<group>"; };
+		BB3D249B5BCD8FB173A5CDF95F42C922 /* ZooNSLogModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSLogModel.h; sourceTree = "<group>"; };
+		BBC2A7C42266BB049FE76879812B7D93 /* ZooCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooCopyLabel.h; path = Zoo/Classes/CommonUI/Label/ZooCopyLabel.h; sourceTree = "<group>"; };
+		BBFE3FE75F662A95097CE2A2AAD01945 /* Pods-Zoo.General_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zoo.General_Tests"; path = Pods_Zoo_General_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC9B36D7A1BBFB7D629ABDCC72E9960 /* UIColor+Zoo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Zoo.h"; path = "Zoo/Classes/Category/UIColor+Zoo.h"; sourceTree = "<group>"; };
+		BF8D98E5D43C94A34F4AAC296EEB0587 /* UIImage+Zoo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Zoo.m"; path = "Zoo/Classes/Category/UIImage+Zoo.m"; sourceTree = "<group>"; };
+		C0938B738BA52DD28A2CF52B567D44FE /* ZooCellSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooCellSwitch.m; path = Zoo/Classes/CommonUI/CellSwitch/ZooCellSwitch.m; sourceTree = "<group>"; };
+		C10C9371627D49B3FDC1610D28F1BFA3 /* Zoo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zoo.h; path = Zoo/Classes/Zoo.h; sourceTree = "<group>"; };
+		C2AEF97CBC9A116EB7765EF883D13DFF /* ZooNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooNavigationController.m; path = Zoo/Classes/Entry/Home/ZooNavigationController.m; sourceTree = "<group>"; };
+		CA7F772A7BE63D9D90AABD7A402E3DC9 /* Zoo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zoo-Info.plist"; sourceTree = "<group>"; };
+		CB10A606487C0C93A0D6728BFF51FF7D /* Pods-Zoo.General_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zoo.General_Example-dummy.m"; sourceTree = "<group>"; };
+		CBFD74823F5EBFAEB5788561CA5B871A /* ZooNSUserDefaultsEditViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSUserDefaultsEditViewController.h; sourceTree = "<group>"; };
+		CC0FB0147E2E190A84C5BC77B87A3786 /* ZooHomeCloseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooHomeCloseCell.m; path = Zoo/Classes/Entry/Home/Cell/ZooHomeCloseCell.m; sourceTree = "<group>"; };
+		CC7D7BC866E0FF16EF7E9643ED2682CA /* ZooBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooBarChart.m; path = Zoo/Classes/CommonUI/Charts/ZooBarChart.m; sourceTree = "<group>"; };
+		CE7CCF4D9248D97CC337025FE039CDAF /* Zoo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zoo-prefix.pch"; sourceTree = "<group>"; };
+		CECE86199A6B917A948728C015DE68D8 /* ZooDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooDefine.h; path = Zoo/Classes/Define/ZooDefine.h; sourceTree = "<group>"; };
+		D039F74F3740FE7619DDD51FDBA7EE72 /* ZooSandboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooSandboxCell.h; sourceTree = "<group>"; };
+		D1803E36730354C0C885650287F43B72 /* ZooTimeProfilerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooTimeProfilerCore.h; path = Zoo/Classes/Util/TimeProfiler/ZooTimeProfilerCore.h; sourceTree = "<group>"; };
+		D385532FA2600043CC4F55F30B717009 /* ZooThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooThreadSafeMutableDictionary.h; path = Zoo/Classes/Util/ZooThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		D404B40AE4220F22A135D36DE3B4AAF0 /* ZooCrashPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooCrashPlugin.m; sourceTree = "<group>"; };
+		D48428A69140EEE4FC9A431D8A885F66 /* Pods-Zoo.General_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoo.General_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D57A84EFD0B902D83ABF0EF8F0849375 /* Pods-Zoo.General_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoo.General_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5F4D9E3616730A091967F6804DE113C /* Pods-Zoo.General_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoo.General_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D7A0DFCF57526CEB815310ACB5C54FE9 /* Zoo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zoo.modulemap; sourceTree = "<group>"; };
+		D7DE700B4538C56A1F84518EF7B6C04E /* Zoo.General-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zoo.General-dummy.m"; sourceTree = "<group>"; };
+		D97438D74A2A3F3B58AE68865474E461 /* ResourceBundle-Zoo-Zoo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Zoo-Zoo-Info.plist"; sourceTree = "<group>"; };
+		D9AE3A01B69F0D0FB4874C066D2D075B /* ZooThreadSafeMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooThreadSafeMutableArray.h; path = Zoo/Classes/Util/ZooThreadSafeMutableArray.h; sourceTree = "<group>"; };
+		DAB34FA0B9AA03513571976326BE1060 /* ZooSandboxPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooSandboxPlugin.m; sourceTree = "<group>"; };
+		DB71CAA8F8EB23F21765C10358783EC5 /* ZooBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooBacktraceLogger.h; path = Zoo/Classes/Util/BSBacktraceLogger/ZooBacktraceLogger.h; sourceTree = "<group>"; };
+		DBED0F4C1C8F739106D0A8035C1D73DC /* ZooChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooChart.h; path = Zoo/Classes/CommonUI/Charts/ZooChart.h; sourceTree = "<group>"; };
+		DCC5AAEE84848DB38C207DC25EA836C2 /* ZooNSLogListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSLogListCell.h; sourceTree = "<group>"; };
+		DE696540239ECF4F72661C97D32CDA82 /* ZooNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooNavigationController.h; path = Zoo/Classes/Entry/Home/ZooNavigationController.h; sourceTree = "<group>"; };
+		DF9FBA6D799B98E2F7158ACEA941080D /* ZooNSUserDefaultsPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSUserDefaultsPlugin.h; sourceTree = "<group>"; };
+		E0D028F9E2D1080787EA3CB6021FD047 /* ZooH5Plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooH5Plugin.h; sourceTree = "<group>"; };
+		E12EB474246A7A4E0D0A74ADFAC68EED /* ZooSandboxCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooSandboxCell.m; sourceTree = "<group>"; };
+		E33FF9A22E5F312CD3A3CAD3E39E2BFA /* NSObject+Zoo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Zoo.h"; path = "Zoo/Classes/Category/NSObject+Zoo.h"; sourceTree = "<group>"; };
+		E3EAE6B46EE5D28DE2E572ABA363F5E6 /* ZooNSLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSLogManager.h; sourceTree = "<group>"; };
+		E74019A91204CA27456C66D4BFACA66D /* Pods-Zoo.General_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoo.General_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E78383DF9710D5579FED5AF742DEEDE3 /* ZooPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooPluginProtocol.h; path = Zoo/Classes/Plugin/Protocol/ZooPluginProtocol.h; sourceTree = "<group>"; };
+		E79B4BDD5401A2F028654839AECDEEA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E7C9AEA05B0BC30CB97A7D5507C70836 /* ZooNSUserDefaultsPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZooNSUserDefaultsPlugin.m; sourceTree = "<group>"; };
+		EB53FC506D77FF9B11765EAA31405EB5 /* ZooNSUserDefaultsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooNSUserDefaultsViewController.h; sourceTree = "<group>"; };
+		EBC2F7AEC2446D30EACE962445FD7A23 /* ZooChartAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooChartAxis.h; path = Zoo/Classes/CommonUI/Charts/ZooChartAxis.h; sourceTree = "<group>"; };
+		EC0BE239F7A6D1819EB23EE3C5A5A733 /* ZooDefaultWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooDefaultWebViewController.m; path = Zoo/Classes/CommonUI/WebView/ZooDefaultWebViewController.m; sourceTree = "<group>"; };
+		ED732AD9DCB7C765542B3AFC532D1DA7 /* ZooSanboxDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooSanboxDetailViewController.h; sourceTree = "<group>"; };
+		EEE2A5C32B71384B58B5BAD9FFCA4F38 /* Pods-Zoo.General_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoo.General_Tests-Info.plist"; sourceTree = "<group>"; };
+		F13E5208E2B8E8062093E5857DAAF8DF /* ZooSandboxPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooSandboxPlugin.h; sourceTree = "<group>"; };
+		F328CEFCCA980F55E26E3310B7387BDD /* ZooChartAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooChartAxis.m; path = Zoo/Classes/CommonUI/Charts/ZooChartAxis.m; sourceTree = "<group>"; };
+		F46C67B00499BDD62F90DF7AC4958ED7 /* ZooChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooChart.m; path = Zoo/Classes/CommonUI/Charts/ZooChart.m; sourceTree = "<group>"; };
+		F609AE74954E11478FE8C89E59CC391F /* ZooCacheManager+General.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZooCacheManager+General.h"; sourceTree = "<group>"; };
+		F76DF6CC661A41E8036BB4F72683B0A8 /* ZooRouterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooRouterViewController.h; sourceTree = "<group>"; };
+		F84C873A4C5C6328B1AB7C9B149F4927 /* ZooVisualMagnifierWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZooVisualMagnifierWindow.h; path = Zoo/Classes/CommonUI/Visual/ZooVisualMagnifierWindow.h; sourceTree = "<group>"; };
+		F97081692A915CAA7A73B677124277EE /* Zoo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Zoo; path = Zoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7245814A1677B0D655B9982CD31A71 /* ZooCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooCopyLabel.m; path = Zoo/Classes/CommonUI/Label/ZooCopyLabel.m; sourceTree = "<group>"; };
+		FBD19340C06090CBEB928CCAB8F6EAEE /* ZooVisualInfoWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooVisualInfoWindow.m; path = Zoo/Classes/CommonUI/Visual/ZooVisualInfoWindow.m; sourceTree = "<group>"; };
+		FC4D33349EEBEB089FE8EBA014D72A06 /* ZooHomeFootCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZooHomeFootCell.m; path = Zoo/Classes/Entry/Home/Cell/ZooHomeFootCell.m; sourceTree = "<group>"; };
+		FD413D7A173AC6C7BB7CC1F6791099C1 /* ZooCrashListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooCrashListViewController.h; sourceTree = "<group>"; };
+		FDF91E2410E12216456D9E5D107A4008 /* ZooH5ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooH5ViewController.h; sourceTree = "<group>"; };
+		FE0F00C3BD2F72A4BE474655356B23E8 /* Zoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zoo.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376275A8188A5D96E086C31FE0EDBFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E28F095D0DECD960B93F43F3DF740A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A867F678CDFA8D598439C0722BF8594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC716EC434979309F8D6D8496729624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990327784E3785DDCC42BE885B14A1D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4D21F84279C1B8DE2B6FF2D07F578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63285D58B5F6D50711A369E18E001CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED651FB0CEB605FDAB7518C668A764D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624646713A0E16D56A383D9C530A8E6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05329BDA78871AFB5E2FC116093D4260 /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				A3F25E91C8CC136EA70AB2D50A570EDD /* ZooAppSettingPlugin.h */,
+				A1B4C3DE2764C4024EBE240588C8174D /* ZooAppSettingPlugin.m */,
+			);
+			name = AppSetting;
+			path = Zoo.General/Classes/AppSetting;
+			sourceTree = "<group>";
+		};
+		06877BC644D19BF043041230B913F42F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBFD74823F5EBFAEB5788561CA5B871A /* ZooNSUserDefaultsEditViewController.h */,
+				8EAD2A7A6253876BA39FE1EFF5CA91B0 /* ZooNSUserDefaultsEditViewController.m */,
+				EB53FC506D77FF9B11765EAA31405EB5 /* ZooNSUserDefaultsViewController.h */,
+				3A87D7B9D74C5D5B0ADD6B4DEDAA29A7 /* ZooNSUserDefaultsViewController.m */,
+			);
+			name = ViewControllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		19375C6B6DF0ABB8021006BE4FBA8D14 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A554A27F9B08BE9E54A5AC2F9938D125 /* ZooQRCodeViewController.h */,
+				1ADBB6BD750AD84C35F87E580F5C0ED2 /* ZooQRCodeViewController.m */,
+				8FE11CD4F225E900EB91D4FD08F1D612 /* ZooQRScanView.h */,
+				145A7205931A5474807E02578C9F1D7A /* ZooQRScanView.m */,
+			);
+			name = QRCode;
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		27EA8E7E39600F50BF6DBCD3DB71A46E /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				205D8540424B4C543DE3BFF9D409DFF5 /* ZooCrashPlugin.h */,
+				D404B40AE4220F22A135D36DE3B4AAF0 /* ZooCrashPlugin.m */,
+				935CCC2C4B3488DD0E63B1D1B9543AEA /* ZooCrashViewController.h */,
+				5F5730EF55366314EC70646783EE0C7F /* ZooCrashViewController.m */,
+				4DB486F9332D9BEF06E1B63FF243C50E /* Function */,
+				EFEF18A7BF191C0178905488B1DFB744 /* List */,
+			);
+			name = Crash;
+			path = Zoo.General/Classes/Crash;
+			sourceTree = "<group>";
+		};
+		2D364D59C3B2123AACF086A2A55D6D5B /* NSLog */ = {
+			isa = PBXGroup;
+			children = (
+				136BA41BEEF02C4305B51D7C69FF4A6C /* ZooNSLogPlugin.h */,
+				29015E15A0D52DB4CE25152DFE2427DD /* ZooNSLogPlugin.m */,
+				63114415018498EAF59F10E432E8C4AF /* ZooNSLogViewController.h */,
+				2F97B50F11AF6F7284CB50D51FAEA122 /* ZooNSLogViewController.m */,
+				D1C8B35E9A686C1E80A819CE5179CF1E /* Function */,
+				76081EC17335D4455C576D3E1835C5F6 /* List */,
+			);
+			name = NSLog;
+			path = Zoo.General/Classes/NSLog;
+			sourceTree = "<group>";
+		};
+		3096BFD3C5529C2AA91F07BFA28C8080 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CC748F361A5F9CA25EBA8939CEEF210 /* Assets.xcassets */,
+				B6714ECC75ABB421C11F83B868A06EE0 /* Zoo.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D50D49DE9A6669A3DB1AE67E06A6868 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868AA6E620520FF50173E4B2013FE41D /* ZooNSUserDefaultsModel.h */,
+				090F9D65BF1667A304CF0C8CF72B82F0 /* ZooNSUserDefaultsModel.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4314DE2A5810F7208B6524103BD0626D /* DeleteLocalData */ = {
+			isa = PBXGroup;
+			children = (
+				1EA94D1AA41F935AF34B5EC98C1CCE4B /* ZooDeleteLocalDataPlugin.h */,
+				1AEE7CEB421F17E72CEED69B957C7B25 /* ZooDeleteLocalDataPlugin.m */,
+				6F07567B979E08D379EBAAC239F3B13D /* ZooDeleteLocalDataViewController.h */,
+				2EE7A943B12A219C8BA6743CDA92B475 /* ZooDeleteLocalDataViewController.m */,
+			);
+			name = DeleteLocalData;
+			path = Zoo.General/Classes/DeleteLocalData;
+			sourceTree = "<group>";
+		};
+		46CF827F89ECB97E59CF5DF4D102651F /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				81FC0D9A3E518DBB4A0A02C7D3E99341 /* ZooAppInfoCell.h */,
+				3C1A5D1805A18E4F97734086E7BC684C /* ZooAppInfoCell.m */,
+				2A358DB96A01DADA97AEF21762A76CDD /* ZooAppInfoPlugin.h */,
+				520A59233B2D53163A34820DD21572B2 /* ZooAppInfoPlugin.m */,
+				4F43B7BF2F3FFAAD49A2EBD001CB5201 /* ZooAppInfoViewController.h */,
+				81E5DB2EBE28977E30B45D79B4DB8996 /* ZooAppInfoViewController.m */,
+			);
+			name = AppInfo;
+			path = Zoo.General/Classes/AppInfo;
+			sourceTree = "<group>";
+		};
+		4DB486F9332D9BEF06E1B63FF243C50E /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				63EC02BBAAB7B3499D9A4191D1664A96 /* ZooCrashSignalExceptionHandler.h */,
+				B2FEA03CD7BCA19EE63EA1A58F9FF84E /* ZooCrashSignalExceptionHandler.m */,
+				95D1DB60F3259CD1538FC46F1B98F8EF /* ZooCrashTool.h */,
+				36F22210D748A193206C952E2FF314C4 /* ZooCrashTool.m */,
+				5EF3DE95C321AFA572895CE27C436FAF /* ZooCrashUncaughtExceptionHandler.h */,
+				79ADCCECE4DF839B414F66A1AF3A6DAB /* ZooCrashUncaughtExceptionHandler.m */,
+			);
+			name = Function;
+			path = Function;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BE10317BFCC0FD27283651A5E3335B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EFDB7F133C7B057529F09F8C10FB828 /* Zoo.General */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		629A7079A587754C4BB793C5F434F807 /* Pods-Zoo.General_Example */ = {
+			isa = PBXGroup;
+			children = (
+				585EC44C223B60F66E58428C3041923A /* Pods-Zoo.General_Example.modulemap */,
+				2D0FAE13E964CE1899A785588A49E832 /* Pods-Zoo.General_Example-acknowledgements.markdown */,
+				E74019A91204CA27456C66D4BFACA66D /* Pods-Zoo.General_Example-acknowledgements.plist */,
+				CB10A606487C0C93A0D6728BFF51FF7D /* Pods-Zoo.General_Example-dummy.m */,
+				8960D58281686FAC3F42F0D743F678D4 /* Pods-Zoo.General_Example-frameworks.sh */,
+				ABC8366AA4BD1C079462B7DFAC783C80 /* Pods-Zoo.General_Example-Info.plist */,
+				AF7E6001143DFC7E4A818C75D2FBCFE9 /* Pods-Zoo.General_Example-umbrella.h */,
+				5F11614385268EB0AB999C7915CEA254 /* Pods-Zoo.General_Example.debug.xcconfig */,
+				D5F4D9E3616730A091967F6804DE113C /* Pods-Zoo.General_Example.release.xcconfig */,
+			);
+			name = "Pods-Zoo.General_Example";
+			path = "Target Support Files/Pods-Zoo.General_Example";
+			sourceTree = "<group>";
+		};
+		76081EC17335D4455C576D3E1835C5F6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5AAEE84848DB38C207DC25EA836C2 /* ZooNSLogListCell.h */,
+				72DC116783DF6BC6B59CEC4CA7C1FCBE /* ZooNSLogListCell.m */,
+				7D32F74AEBDBB50C617C088952318CCA /* ZooNSLogListViewController.h */,
+				134BDA6E61F6779F6BC48A628E750B0E /* ZooNSLogListViewController.m */,
+			);
+			name = List;
+			path = List;
+			sourceTree = "<group>";
+		};
+		7A058B380A353D5CCE7E4C9762E7EBD4 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				2BD28811C92AC212C2437C5D09EF2C39 /* ZooDBCell.h */,
+				19E5411901561C50FAF1B2049AD51087 /* ZooDBCell.m */,
+				9D35AD85A182B70211506D64575CCEDE /* ZooDBRowView.h */,
+				83F86E3C65A7817D3E4C4A47A79935C2 /* ZooDBRowView.m */,
+				63E436CC7F545DF1E6853403376C4FA9 /* ZooDBShowView.h */,
+				0D59FA848DE9E2F9C316AC44F728C9F5 /* ZooDBShowView.m */,
+				9462CDE0F552E2ABE2A8A7D4CEC6E011 /* ZooDBTableViewController.h */,
+				A382CC472BC3B44DF28F6B1C463F3406 /* ZooDBTableViewController.m */,
+			);
+			name = DB;
+			path = DB;
+			sourceTree = "<group>";
+		};
+		7A587B0D7D1B14BE551F29D52106755A /* Sanbox */ = {
+			isa = PBXGroup;
+			children = (
+				F13E5208E2B8E8062093E5857DAAF8DF /* ZooSandboxPlugin.h */,
+				DAB34FA0B9AA03513571976326BE1060 /* ZooSandboxPlugin.m */,
+				82907A43A1A592787AE4D1EF9F0F6E7D /* Util */,
+				9DF375B053D9F1A1298DB7484604A667 /* VC */,
+			);
+			name = Sanbox;
+			path = Zoo.General/Classes/Sanbox;
+			sourceTree = "<group>";
+		};
+		805E180D22E3757954B5AA66F2DE63A8 /* Pods-Zoo.General_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6BC3BECFF5941E560F240BEA5D51EE26 /* Pods-Zoo.General_Tests.modulemap */,
+				96A756C211B870C969BE7810D03A259E /* Pods-Zoo.General_Tests-acknowledgements.markdown */,
+				D48428A69140EEE4FC9A431D8A885F66 /* Pods-Zoo.General_Tests-acknowledgements.plist */,
+				918436C5F9AF285D8411EC884FDF845E /* Pods-Zoo.General_Tests-dummy.m */,
+				EEE2A5C32B71384B58B5BAD9FFCA4F38 /* Pods-Zoo.General_Tests-Info.plist */,
+				0FE02619ABFDA42F76D21FDEEB23A21E /* Pods-Zoo.General_Tests-umbrella.h */,
+				B5425A913DF3C6037CA2762D182E8D4D /* Pods-Zoo.General_Tests.debug.xcconfig */,
+				D57A84EFD0B902D83ABF0EF8F0849375 /* Pods-Zoo.General_Tests.release.xcconfig */,
+			);
+			name = "Pods-Zoo.General_Tests";
+			path = "Target Support Files/Pods-Zoo.General_Tests";
+			sourceTree = "<group>";
+		};
+		82907A43A1A592787AE4D1EF9F0F6E7D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8713CCCBAF622F1533348D619D6F6966 /* ZooDBManager.h */,
+				00BCB43560B0A0522BA41B77B74AB783 /* ZooDBManager.m */,
+			);
+			name = Util;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8F3238815C8D6D2611ACB829F86CCA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849D1A3E287D6400483CED92CF296C5A /* Pods-Zoo.General_Example */,
+				BBFE3FE75F662A95097CE2A2AAD01945 /* Pods-Zoo.General_Tests */,
+				F97081692A915CAA7A73B677124277EE /* Zoo */,
+				19DD674FF4EE557485FB725FCC745CE5 /* Zoo.General */,
+				9D7BABD20FD79A10CBE7046B898D7555 /* Zoo-Zoo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930F9E8395D0890286307569A84639C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E79B4BDD5401A2F028654839AECDEEA0 /* LICENSE */,
+				B2D9E528C0A324F89B7CD5C96D0AF480 /* README.md */,
+				9075C448FD64F775EFC113EFC8F4B6F8 /* Zoo.General.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		99330C8BA7FD5BB53EDB4D6A77EC7F3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97438D74A2A3F3B58AE68865474E461 /* ResourceBundle-Zoo-Zoo-Info.plist */,
+				D7A0DFCF57526CEB815310ACB5C54FE9 /* Zoo.modulemap */,
+				4E105A962043D80EE8D58E8B45EDA57E /* Zoo-dummy.m */,
+				CA7F772A7BE63D9D90AABD7A402E3DC9 /* Zoo-Info.plist */,
+				CE7CCF4D9248D97CC337025FE039CDAF /* Zoo-prefix.pch */,
+				AA1354D6E57EE8BC40B00D18C28CFB22 /* Zoo-umbrella.h */,
+				FE0F00C3BD2F72A4BE474655356B23E8 /* Zoo.debug.xcconfig */,
+				7425501FB6155C1D3178A7222293D0B5 /* Zoo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Zoo";
+			sourceTree = "<group>";
+		};
+		9DF375B053D9F1A1298DB7484604A667 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				ED732AD9DCB7C765542B3AFC532D1DA7 /* ZooSanboxDetailViewController.h */,
+				6CF5580070BD4BEBDDDCEA92927FAEDB /* ZooSanboxDetailViewController.m */,
+				D039F74F3740FE7619DDD51FDBA7EE72 /* ZooSandboxCell.h */,
+				E12EB474246A7A4E0D0A74ADFAC68EED /* ZooSandboxCell.m */,
+				24648AF3432E5FB4A9D10D82C7C52890 /* ZooSandboxViewController.h */,
+				6818AA02E13137D61F12FDB243767A09 /* ZooSandboxViewController.m */,
+				7A058B380A353D5CCE7E4C9762E7EBD4 /* DB */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9E9CE4D867E3C1C3172381663B0E4632 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1080C8AF369FBF6EE34606056400866C /* Zoo.General.modulemap */,
+				D7DE700B4538C56A1F84518EF7B6C04E /* Zoo.General-dummy.m */,
+				A986CC2AF3AD96BB039A33198F11FD77 /* Zoo.General-Info.plist */,
+				6EA6CA6AEFDF81F1E0D1373CBF977DDD /* Zoo.General-prefix.pch */,
+				7FFCBC8D9A186AFBA96C85CAF841D804 /* Zoo.General-umbrella.h */,
+				8B9EA521D141D9B9856BA25AA5B2F455 /* Zoo.General.debug.xcconfig */,
+				2423D1C7CDFCDDD916B61D7246C97989 /* Zoo.General.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Zoo.General";
+			sourceTree = "<group>";
+		};
+		9EFDB7F133C7B057529F09F8C10FB828 /* Zoo.General */ = {
+			isa = PBXGroup;
+			children = (
+				34C9F309D46CE61BD803028241FA0400 /* Zoo.General.h */,
+				46CF827F89ECB97E59CF5DF4D102651F /* AppInfo */,
+				05329BDA78871AFB5E2FC116093D4260 /* AppSetting */,
+				F6CFA6633057F444AE9DE8AA3E2B9E57 /* Cache */,
+				27EA8E7E39600F50BF6DBCD3DB71A46E /* Crash */,
+				4314DE2A5810F7208B6524103BD0626D /* DeleteLocalData */,
+				F149F5496C981A91638EB60A8CE5D9DC /* Manager */,
+				2D364D59C3B2123AACF086A2A55D6D5B /* NSLog */,
+				C66CCD58E5EC3E5811FA1E23FB4DA9AE /* NSUserDefaults */,
+				930F9E8395D0890286307569A84639C8 /* Pod */,
+				DEB31B6A729E3A901D3905708C6C2B84 /* Router */,
+				7A587B0D7D1B14BE551F29D52106755A /* Sanbox */,
+				9E9CE4D867E3C1C3172381663B0E4632 /* Support Files */,
+			);
+			name = Zoo.General;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A72354870FA03D87C86E45DB379960BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0F2BF4D21EB3CEFF20385F9C5B31596 /* Zoo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD51AE799387EBB6F2E05F9A785332C8 /* H5 */ = {
+			isa = PBXGroup;
+			children = (
+				E0D028F9E2D1080787EA3CB6021FD047 /* ZooH5Plugin.h */,
+				4932C76004D7A06EBDC2ACA8108F8CB7 /* ZooH5Plugin.m */,
+				FDF91E2410E12216456D9E5D107A4008 /* ZooH5ViewController.h */,
+				4CA957449AE3E7D46F32FB3DA53D014F /* ZooH5ViewController.m */,
+			);
+			name = H5;
+			path = H5;
+			sourceTree = "<group>";
+		};
+		C66CCD58E5EC3E5811FA1E23FB4DA9AE /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				DF9FBA6D799B98E2F7158ACEA941080D /* ZooNSUserDefaultsPlugin.h */,
+				E7C9AEA05B0BC30CB97A7D5507C70836 /* ZooNSUserDefaultsPlugin.m */,
+				3D50D49DE9A6669A3DB1AE67E06A6868 /* Model */,
+				06877BC644D19BF043041230B913F42F /* ViewControllers */,
+			);
+			name = NSUserDefaults;
+			path = Zoo.General/Classes/NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5BE10317BFCC0FD27283651A5E3335B0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A72354870FA03D87C86E45DB379960BB /* Pods */,
+				8F3238815C8D6D2611ACB829F86CCA99 /* Products */,
+				E0F0C0BD876549AA380C9E6A9589A89A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C8B35E9A686C1E80A819CE5179CF1E /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				E3EAE6B46EE5D28DE2E572ABA363F5E6 /* ZooNSLogManager.h */,
+				3F1D300EF168867C6BB6E22382E9B369 /* ZooNSLogManager.m */,
+				BB3D249B5BCD8FB173A5CDF95F42C922 /* ZooNSLogModel.h */,
+				198B049A029025B695BD678901D46651 /* ZooNSLogModel.m */,
+			);
+			name = Function;
+			path = Function;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB31B6A729E3A901D3905708C6C2B84 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BD51AE799387EBB6F2E05F9A785332C8 /* H5 */,
+				19375C6B6DF0ABB8021006BE4FBA8D14 /* QRCode */,
+				E3A4BC80C1905A4E728BBCB873F15242 /* Router */,
+			);
+			name = Router;
+			path = Zoo.General/Classes/Router;
+			sourceTree = "<group>";
+		};
+		E0F0C0BD876549AA380C9E6A9589A89A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				629A7079A587754C4BB793C5F434F807 /* Pods-Zoo.General_Example */,
+				805E180D22E3757954B5AA66F2DE63A8 /* Pods-Zoo.General_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0F2BF4D21EB3CEFF20385F9C5B31596 /* Zoo */ = {
+			isa = PBXGroup;
+			children = (
+				65AAD0C483CDAA523C11FAA4457A47B1 /* Foundation+Zoo.m */,
+				E33FF9A22E5F312CD3A3CAD3E39E2BFA /* NSObject+Zoo.h */,
+				1A6B83FEA07BB3C418DEF151028BD8D5 /* NSObject+Zoo.m */,
+				BEC9B36D7A1BBFB7D629ABDCC72E9960 /* UIColor+Zoo.h */,
+				41E6247879B3E54EAA251A2EE6366A7B /* UIColor+Zoo.m */,
+				648E31B265C03E0D96BDCB07AF8F5CBF /* UIImage+Zoo.h */,
+				BF8D98E5D43C94A34F4AAC296EEB0587 /* UIImage+Zoo.m */,
+				2561576988FFAA80F101BD1D184ED53E /* UIView+Zoo.h */,
+				28323DC47C3D96D61C5B979E5B4E75C4 /* UIView+Zoo.m */,
+				5F58CEB8ACCF194ECA39928687703296 /* UIViewController+Zoo.h */,
+				2D6AA82E1887D11AE4F05B2884BAFB47 /* UIViewController+Zoo.m */,
+				C10C9371627D49B3FDC1610D28F1BFA3 /* Zoo.h */,
+				B5A036D7E08D519940A868BF4BBA198F /* zoo_fishhook.c */,
+				A615CBEC4772413642C681340FFCF34D /* zoo_fishhook.h */,
+				63AB4D50EDEDD4747D111D943D46A96A /* ZooAlertUtil.h */,
+				07760B0BF71F91297A999BAA6FED3273 /* ZooAlertUtil.m */,
+				55FBC1B455BA071A4DA020BD3B2E053C /* ZooAppInfoUtil.h */,
+				3F145F9DC0E70169B31C122B29B9B888 /* ZooAppInfoUtil.m */,
+				DB71CAA8F8EB23F21765C10358783EC5 /* ZooBacktraceLogger.h */,
+				B309A79FA0D519DBFB62C6D5D0350DAC /* ZooBacktraceLogger.m */,
+				709997C35940941A2DAC27483171FB90 /* ZooBarChart.h */,
+				CC7D7BC866E0FF16EF7E9643ED2682CA /* ZooBarChart.m */,
+				5A252178B1508129FC4A9E396CF57720 /* ZooBaseBigTitleView.h */,
+				8D2B37168D12DFA03C69F6E1CA84F4F2 /* ZooBaseBigTitleView.m */,
+				08AF83B98939A97986682E49CF59885E /* ZooBaseViewController.h */,
+				2FF9A863D11316D50A05ECE5B996DAE5 /* ZooBaseViewController.m */,
+				676671CD05381DD6D0C743897589C8DF /* ZooCacheManager.h */,
+				87DCF9FADC7CE4D463063F66D6F083E6 /* ZooCacheManager.m */,
+				A9C4BE407953E081385CA4C1D96BEF48 /* ZooCellButton.h */,
+				3AFE4C6FC3249BDEA474B735B619EF42 /* ZooCellButton.m */,
+				465109A626174B03C7399831DE66C479 /* ZooCellInput.h */,
+				03D721BC886F43F766390073128286A1 /* ZooCellInput.m */,
+				009FFFD48F231C8B2D0D8831A83D3F73 /* ZooCellSwitch.h */,
+				C0938B738BA52DD28A2CF52B567D44FE /* ZooCellSwitch.m */,
+				DBED0F4C1C8F739106D0A8035C1D73DC /* ZooChart.h */,
+				F46C67B00499BDD62F90DF7AC4958ED7 /* ZooChart.m */,
+				EBC2F7AEC2446D30EACE962445FD7A23 /* ZooChartAxis.h */,
+				F328CEFCCA980F55E26E3310B7387BDD /* ZooChartAxis.m */,
+				5134AF8CC3E1FE9CE828C2A27EE92E71 /* ZooChartDataItem.h */,
+				522DC953148A40C010F7344192089D45 /* ZooChartDataItem.m */,
+				BBC2A7C42266BB049FE76879812B7D93 /* ZooCopyLabel.h */,
+				FB7245814A1677B0D655B9982CD31A71 /* ZooCopyLabel.m */,
+				97852A11F5BCE9A89C72A4B9AA8E4CE4 /* ZooDefaultWebViewController.h */,
+				EC0BE239F7A6D1819EB23EE3C5A5A733 /* ZooDefaultWebViewController.m */,
+				CECE86199A6B917A948728C015DE68D8 /* ZooDefine.h */,
+				103409F1E6C77F1A1999D815F3D89F6C /* ZooEntryWindow.h */,
+				0DD2D67F8F5A7F364C196B7D7D1CD6B1 /* ZooEntryWindow.m */,
+				350FBAEB3DE063E7240EB703ADC548F9 /* ZooHomeCell.h */,
+				6516D2DDFBD27A3B5C56D171A148B34F /* ZooHomeCell.m */,
+				AE033857CED3EFE3FCA4BAD79E7CB222 /* ZooHomeCloseCell.h */,
+				CC0FB0147E2E190A84C5BC77B87A3786 /* ZooHomeCloseCell.m */,
+				B294BE5CA749FDD9390A607ED34E7F7C /* ZooHomeFootCell.h */,
+				FC4D33349EEBEB089FE8EBA014D72A06 /* ZooHomeFootCell.m */,
+				AABB0416A4BE1689497A93552FF9E559 /* ZooHomeHeadCell.h */,
+				84EDFAE42A3E3A6A9600DDC655AAA315 /* ZooHomeHeadCell.m */,
+				43A5A0DC07E8143F8B6E95A90BE90C03 /* ZooHomeViewController.h */,
+				BA36AD089C938D6CDB23D07F8808148D /* ZooHomeViewController.m */,
+				8F667461901B88D4AF8D5617E52368F1 /* ZooHomeWindow.h */,
+				483FCFC1A70E693BF2758BE280583F9A /* ZooHomeWindow.m */,
+				020AA8A2ED4978E7B89F0DCDEFF8F1EF /* Zooi18NUtil.h */,
+				3EFC18DE4D9E8775731C8E06F803FC81 /* Zooi18NUtil.m */,
+				B86616112D1C1618EF4E35446EDD16BC /* ZooManager.h */,
+				50C3AD4DE84F9192595391FD29B67D76 /* ZooManager.m */,
+				84C984E714C38659A7767405F836F4BE /* ZooNavBarItemModel.h */,
+				A44BC854A210A2B8326D2F2571152670 /* ZooNavBarItemModel.m */,
+				DE696540239ECF4F72661C97D32CDA82 /* ZooNavigationController.h */,
+				C2AEF97CBC9A116EB7765EF883D13DFF /* ZooNavigationController.m */,
+				1B9442401E2AE642FDB883906716255F /* ZooNetworkUtil.h */,
+				73C3D9F3650806767810189D8C3795AA /* ZooNetworkUtil.m */,
+				A2BBE58FF854521C3FC413E107C29D7B /* ZooPieChart.h */,
+				527EB2D130B13771618AC6BAE7B81931 /* ZooPieChart.m */,
+				E78383DF9710D5579FED5AF742DEEDE3 /* ZooPluginProtocol.h */,
+				4DEBFCD2661BE6B464D662AACD43F56A /* ZooSandboxModel.h */,
+				223640F905925C6BE20D605BD6EB7FD6 /* ZooSandboxModel.m */,
+				1D386C83491B37B23667C4487DD75EEB /* ZooStartPluginProtocol.h */,
+				0135D1ECD75C1AC31DA9D946E92799B1 /* ZooStatusBarViewController.h */,
+				5194BE024632602E186F362D2A15D3B2 /* ZooStatusBarViewController.m */,
+				130C88A77A3CAFE70AB3295BBFB8E688 /* ZooStringSearchView.h */,
+				2B95330AE140DB47B32BFA1F2527CF9A /* ZooStringSearchView.m */,
+				D9AE3A01B69F0D0FB4874C066D2D075B /* ZooThreadSafeMutableArray.h */,
+				2A0EA9DBF8B2B1C5C8B4041F71C29DA2 /* ZooThreadSafeMutableArray.m */,
+				D385532FA2600043CC4F55F30B717009 /* ZooThreadSafeMutableDictionary.h */,
+				2770CBFD27CBDFE7CA77F47F1D9617CE /* ZooThreadSafeMutableDictionary.m */,
+				6A1A35E7A9C49991E0AFFF66BAE186DB /* ZooTimeProfilerCore.c */,
+				D1803E36730354C0C885650287F43B72 /* ZooTimeProfilerCore.h */,
+				53E4F19E6F67395593627376CD0ECAC6 /* ZooToastUtil.h */,
+				0F5F5C2548F0F2C257CF4B82F07249F8 /* ZooToastUtil.m */,
+				A558A45E30E4BA4FA162C093845B6D6A /* ZooUtil.h */,
+				BB1C37C31AC3FF89BFB80DBD7242DE7F /* ZooUtil.m */,
+				0AAE6E064E3E1EDF929C17612868C9F3 /* ZooVisualInfoWindow.h */,
+				FBD19340C06090CBEB928CCAB8F6EAEE /* ZooVisualInfoWindow.m */,
+				F84C873A4C5C6328B1AB7C9B149F4927 /* ZooVisualMagnifierWindow.h */,
+				2DCAE62CF182513F83440FF949D64217 /* ZooVisualMagnifierWindow.m */,
+				37B4100DE68B6A0D4A365BFBC0EB243B /* ZooXAxis.h */,
+				7FECE02CC602464B1D81DD14FF56A4D9 /* ZooXAxis.m */,
+				AC701D5C8A966896C672A896330FD047 /* ZooYAxis.h */,
+				535C6B5503DDEDB2AACF24EA7F0602E2 /* ZooYAxis.m */,
+				3096BFD3C5529C2AA91F07BFA28C8080 /* Resources */,
+				99330C8BA7FD5BB53EDB4D6A77EC7F3F /* Support Files */,
+			);
+			name = Zoo;
+			path = Zoo;
+			sourceTree = "<group>";
+		};
+		E3A4BC80C1905A4E728BBCB873F15242 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0F070FD24C2A319E5EE1A430F02A655B /* ZooRouterPlugin.h */,
+				2BD734B0A986EB69811031D2EF5A92C2 /* ZooRouterPlugin.m */,
+				F76DF6CC661A41E8036BB4F72683B0A8 /* ZooRouterViewController.h */,
+				0A2057FDD0D661610994DD1DDB7E8BCA /* ZooRouterViewController.m */,
+			);
+			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EFEF18A7BF191C0178905488B1DFB744 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3D8001D3EFE928AC07937DF3FFFB0683 /* ZooCrashListCell.h */,
+				161FC3BDED595C648943A0EDD00888D2 /* ZooCrashListCell.m */,
+				FD413D7A173AC6C7BB7CC1F6791099C1 /* ZooCrashListViewController.h */,
+				55B0F4024AF02E6AC88F7AD01D6B72A7 /* ZooCrashListViewController.m */,
+			);
+			name = List;
+			path = List;
+			sourceTree = "<group>";
+		};
+		F149F5496C981A91638EB60A8CE5D9DC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				29A971C4E5935B8B7CA5F298BE2FEE52 /* ZooManager+General.h */,
+				55186E7D4493E9A191CAC3B7BB76F2B3 /* ZooManager+General.m */,
+			);
+			name = Manager;
+			path = Zoo.General/Classes/Manager;
+			sourceTree = "<group>";
+		};
+		F6CFA6633057F444AE9DE8AA3E2B9E57 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F609AE74954E11478FE8C89E59CC391F /* ZooCacheManager+General.h */,
+				0A341ABFCCADD165641568810849EDE7 /* ZooCacheManager+General.m */,
+			);
+			name = Cache;
+			path = Zoo.General/Classes/Cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AB5199D316A348B743BB29C8E7EDE56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5325EBCD75A8D685E71A7A9AA58EF7B /* Pods-Zoo.General_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279A763B872D09C9127AD01E5D458DE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0B68C0E4F1E7CE6670CF73B7095255 /* Zoo.General.h in Headers */,
+				38F65E0CD2AC55DDDCED4216CEF2DB0D /* Zoo.General-umbrella.h in Headers */,
+				DA3FF32F0D356FE3AE034DCF9B4F028C /* ZooAppInfoCell.h in Headers */,
+				A7ABD248B0BEC634ED6FE57C94BC54E0 /* ZooAppInfoPlugin.h in Headers */,
+				2C4BEF9890694C7868CA8DA05F9A954F /* ZooAppInfoViewController.h in Headers */,
+				D31A051528A4A979293EA8FCCDC0A110 /* ZooAppSettingPlugin.h in Headers */,
+				69CFF12A9054AA70D5E1FC2389374C9C /* ZooCacheManager+General.h in Headers */,
+				7F08B8BE08D3CDD54A4B8EC5BB9782EA /* ZooCrashListCell.h in Headers */,
+				04F6CBF8440F334EA523639945CC87C5 /* ZooCrashListViewController.h in Headers */,
+				2124460D06E753C71E4F7EAA69496E31 /* ZooCrashPlugin.h in Headers */,
+				EC7C8E9011F6BF1125A5FB2BC083A1D5 /* ZooCrashSignalExceptionHandler.h in Headers */,
+				4755516EECD22E711DBD0BE566DD648E /* ZooCrashTool.h in Headers */,
+				A0F1B455775732D032177D3BD3856380 /* ZooCrashUncaughtExceptionHandler.h in Headers */,
+				E48348A7A76DF3104646E628E246A286 /* ZooCrashViewController.h in Headers */,
+				97499B5A8FFF20F2DBDC0517EA53A8A6 /* ZooDBCell.h in Headers */,
+				ADDF6276734AD0737F7A5D625DD729A1 /* ZooDBManager.h in Headers */,
+				33B46877D58FCC55D35B3ACF2CC88F76 /* ZooDBRowView.h in Headers */,
+				C709A49436199EA5D70F8E1D17932875 /* ZooDBShowView.h in Headers */,
+				8651F3F58B42B65C2BF87733A7BC2395 /* ZooDBTableViewController.h in Headers */,
+				95BEF5D3EE8B2CDA548C77D7E3E3B490 /* ZooDeleteLocalDataPlugin.h in Headers */,
+				D67FE965AACB93CC43984740DA559507 /* ZooDeleteLocalDataViewController.h in Headers */,
+				D09D656B9651BB9B116B529B2643B532 /* ZooH5Plugin.h in Headers */,
+				F5DE7E046AB09BF4F0316C734BE57124 /* ZooH5ViewController.h in Headers */,
+				9D75D1F374273AB1B6F4921356438780 /* ZooManager+General.h in Headers */,
+				146109488D122AB1657CD5997D35CE2F /* ZooNSLogListCell.h in Headers */,
+				CC2D7D2E852FECDADE1F25CB8C159670 /* ZooNSLogListViewController.h in Headers */,
+				2CEF025C091F8075D350DDFBCBBEB1AF /* ZooNSLogManager.h in Headers */,
+				D962989935D2CBFE46E6521CE2295489 /* ZooNSLogModel.h in Headers */,
+				EA9ABCCB04180B650DA1943BAE355093 /* ZooNSLogPlugin.h in Headers */,
+				97B792C72138CFAD6909ACAA3FC1B21A /* ZooNSLogViewController.h in Headers */,
+				ACB0DD5993A68392B74F4F31EBD73C61 /* ZooNSUserDefaultsEditViewController.h in Headers */,
+				DEBEAE77898CD0BE534CAA75B9BAC7FB /* ZooNSUserDefaultsModel.h in Headers */,
+				2F3989E7FB373CEA72A46B10206E1A90 /* ZooNSUserDefaultsPlugin.h in Headers */,
+				41217C92C89D0805B28E08149B03A71A /* ZooNSUserDefaultsViewController.h in Headers */,
+				9C54D8841E28C1DE9FC9FF053E3731F1 /* ZooQRCodeViewController.h in Headers */,
+				1D89119360A723EDB915E4919AB60156 /* ZooQRScanView.h in Headers */,
+				D96D43DCD3A8927FE280940485B24CCA /* ZooRouterPlugin.h in Headers */,
+				86778C8E05F00A6168EA425EBB45E8A4 /* ZooRouterViewController.h in Headers */,
+				8FC13B6048EA3502D5B8FC208BBF9865 /* ZooSanboxDetailViewController.h in Headers */,
+				F7EC98A186AFB49E0B4D584815B3594C /* ZooSandboxCell.h in Headers */,
+				7441B44A6FCDDE17DA3EBBBAD1F657ED /* ZooSandboxPlugin.h in Headers */,
+				EFD3A35B644C10348098D3A87A7DCF2E /* ZooSandboxViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DB5229AC7A8CD292919D3FC3D0BBFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E088E9DB8D7A920C71BFCDD1313B8EB1 /* NSObject+Zoo.h in Headers */,
+				EAAB360C0539456B0D080D930C9F198F /* UIColor+Zoo.h in Headers */,
+				06035339DA6A5449900082406ADA3EA4 /* UIImage+Zoo.h in Headers */,
+				77637843DD8CE7251E4D8835A072B79F /* UIView+Zoo.h in Headers */,
+				F04F9B97CC4927F3D19348368130F116 /* UIViewController+Zoo.h in Headers */,
+				7495B90C417817E8B2D5F72FB58B5863 /* Zoo.h in Headers */,
+				A759331855D9B978B66750215644DAB0 /* Zoo-umbrella.h in Headers */,
+				841F6E9A4614B4D97008A8C55F5FE4F8 /* zoo_fishhook.h in Headers */,
+				ADF65B255416B96DBAD7B8C8786495BC /* ZooAlertUtil.h in Headers */,
+				6DE7DD87289AAE347AF208B26B749320 /* ZooAppInfoUtil.h in Headers */,
+				CBBE91E16E774989C63564F1A98762CA /* ZooBacktraceLogger.h in Headers */,
+				80BD907FE6D981890E116EDB857B72D0 /* ZooBarChart.h in Headers */,
+				342EDFC715A2EA4D2594D2E0FC4C4D7B /* ZooBaseBigTitleView.h in Headers */,
+				01451FE6F1750EED53EBC2E512F3C7EF /* ZooBaseViewController.h in Headers */,
+				AF1883B80DCF1FEA7C1C7A8D24E407D8 /* ZooCacheManager.h in Headers */,
+				B172643006FC9C0EAFDBC43775415CAF /* ZooCellButton.h in Headers */,
+				D3B1739F689F0ED52AD11E7320F6C5E5 /* ZooCellInput.h in Headers */,
+				0E1236261B13A1CC294CA41283884BDD /* ZooCellSwitch.h in Headers */,
+				A08218CD033D8C56F00A8B59C3C490D3 /* ZooChart.h in Headers */,
+				DD8AC2072F7EE9FB2A20BC692B76E174 /* ZooChartAxis.h in Headers */,
+				20A57B23D7EC0DB5F923441A7E50621C /* ZooChartDataItem.h in Headers */,
+				28ADCF6DC4E40ECCB35A02C254E3104B /* ZooCopyLabel.h in Headers */,
+				12D0D6E3217CB3663B818E16EC89C733 /* ZooDefaultWebViewController.h in Headers */,
+				1059B20A8D8D66151929CA209824AA00 /* ZooDefine.h in Headers */,
+				9430968AF4D2260BD2F727ECA9FF2E47 /* ZooEntryWindow.h in Headers */,
+				D5295F00DDB9BA7A98968F504460E7B8 /* ZooHomeCell.h in Headers */,
+				46EAC44C27FB2F6F50BC66C0A65589F1 /* ZooHomeCloseCell.h in Headers */,
+				D43EA46507DEF74D4A7E30C34A094833 /* ZooHomeFootCell.h in Headers */,
+				1B342725E683872B7B1206BD2EF082E9 /* ZooHomeHeadCell.h in Headers */,
+				446677353EC50AB137E0D488F5E11676 /* ZooHomeViewController.h in Headers */,
+				9FA802AC402017A8BD74B49E2B05E6F5 /* ZooHomeWindow.h in Headers */,
+				F5052D0E4EA6D4D0788A5AADB173C930 /* Zooi18NUtil.h in Headers */,
+				C70B7C4DEC7BAF96D4A69A24EC6C152C /* ZooManager.h in Headers */,
+				42DCABC40AC408CB6079EC635162C66A /* ZooNavBarItemModel.h in Headers */,
+				1927CEDC6F43A7AD963995929ACE3D73 /* ZooNavigationController.h in Headers */,
+				95193CD4B98731A06CEEE32F6D09C83F /* ZooNetworkUtil.h in Headers */,
+				10BD88AF0B1C1F6C99CD425F3DFE7AD5 /* ZooPieChart.h in Headers */,
+				0CB0D8BF16D9DAB3F4A2D28CE4E1208E /* ZooPluginProtocol.h in Headers */,
+				CF676E3A32E57D8305FE6177A1926FDF /* ZooSandboxModel.h in Headers */,
+				0E3D8DAC008AFEB3DD567EF89B7AE866 /* ZooStartPluginProtocol.h in Headers */,
+				D77FBD2B7D92BD1B5977AB36DC8A27BB /* ZooStatusBarViewController.h in Headers */,
+				7D3BBB2A19997BF76CFC767DE9EB320A /* ZooStringSearchView.h in Headers */,
+				456B7B8BD45952943757CC67FD0DD54F /* ZooThreadSafeMutableArray.h in Headers */,
+				51D4C1167AFAC40A5790B8A95151EB7C /* ZooThreadSafeMutableDictionary.h in Headers */,
+				C7BF39583F34FA6CE17F261990DFFAA3 /* ZooTimeProfilerCore.h in Headers */,
+				C661C402A5B2470923064161F4536BF0 /* ZooToastUtil.h in Headers */,
+				680CE3730DAE6318823DAED83E17CF21 /* ZooUtil.h in Headers */,
+				4EFBA38C3945D85C365A86E89F2E57D8 /* ZooVisualInfoWindow.h in Headers */,
+				4D66ECFF6EAE0FD21B8CCD8793ED7BFD /* ZooVisualMagnifierWindow.h in Headers */,
+				904A0A8D301E6B86C8AF6457F307F84A /* ZooXAxis.h in Headers */,
+				95E3EFD35AF1B9295231290AB88F40CA /* ZooYAxis.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC32F1B9B960DBC394334A29561C6AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0634F11E2F0DAD64CFAED1BC165BF544 /* Pods-Zoo.General_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BBC3F7501C0F44072C92EB002A971F0 /* Pods-Zoo.General_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53474A1A0C99D0B352E2DAE07CF26B9 /* Build configuration list for PBXNativeTarget "Pods-Zoo.General_Example" */;
+			buildPhases = (
+				1AB5199D316A348B743BB29C8E7EDE56 /* Headers */,
+				E3CF9BAE8BA838FD125A03AA50048D32 /* Sources */,
+				376275A8188A5D96E086C31FE0EDBFBB /* Frameworks */,
+				5931B42ADCF283F2B788B2903562FEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49F69D523A7981CEC98D5D4F98B6C1C /* PBXTargetDependency */,
+				F70BE1C13EC3DE918FCD915017804780 /* PBXTargetDependency */,
+			);
+			name = "Pods-Zoo.General_Example";
+			productName = Pods_Zoo_General_Example;
+			productReference = 849D1A3E287D6400483CED92CF296C5A /* Pods-Zoo.General_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CE5A84A1AB4DEAF9542B4E0AF544520 /* Zoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064CBAA624FD23824A81F36CB1C828D3 /* Build configuration list for PBXNativeTarget "Zoo" */;
+			buildPhases = (
+				47DB5229AC7A8CD292919D3FC3D0BBFB /* Headers */,
+				419F5ECFB33BB51818A22D9C3AAC31FC /* Sources */,
+				ED651FB0CEB605FDAB7518C668A764D7 /* Frameworks */,
+				5C1F3A345A96FB32DBF1FBC2C33E30B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E72B5C3CF00A8B97E9D16FF24D9E775 /* PBXTargetDependency */,
+			);
+			name = Zoo;
+			productName = Zoo;
+			productReference = F97081692A915CAA7A73B677124277EE /* Zoo */;
+			productType = "com.apple.product-type.framework";
+		};
+		B69158ECA6ABAF7CDEDA6508B55BCAEA /* Zoo.General */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B53BF19C40E19A0DDB232B6ECAA2AD /* Build configuration list for PBXNativeTarget "Zoo.General" */;
+			buildPhases = (
+				279A763B872D09C9127AD01E5D458DE5 /* Headers */,
+				AAC76615B0177E4F2F29DA5108EBC3FC /* Sources */,
+				DCA4D21F84279C1B8DE2B6FF2D07F578 /* Frameworks */,
+				CD11385C9C87A23AC33E6B84292C39AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4363E9ECC515FDD3C3E50D6B3A1325F6 /* PBXTargetDependency */,
+			);
+			name = Zoo.General;
+			productName = ZooGeneral;
+			productReference = 19DD674FF4EE557485FB725FCC745CE5 /* Zoo.General */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD7480B28A6CDC87942BCA3EDCA51D3C /* Pods-Zoo.General_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7EFC70295CC1B91302D4A33C5E8614 /* Build configuration list for PBXNativeTarget "Pods-Zoo.General_Tests" */;
+			buildPhases = (
+				4DC32F1B9B960DBC394334A29561C6AC /* Headers */,
+				03244994E9718800A0A6852C5705C968 /* Sources */,
+				AAC716EC434979309F8D6D8496729624 /* Frameworks */,
+				6295B1B0B954FC36DAFB42FA50F4FA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C087948E0D63353BFB6E68442E9A8D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Zoo.General_Tests";
+			productName = Pods_Zoo_General_Tests;
+			productReference = BBFE3FE75F662A95097CE2A2AAD01945 /* Pods-Zoo.General_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE8AAC40F367A05DD18F26745F21389B /* Zoo-Zoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B184782486B1DADDBB7CB0713664E8 /* Build configuration list for PBXNativeTarget "Zoo-Zoo" */;
+			buildPhases = (
+				B6E2E4B14B05647F1DCE411AB6929A69 /* Sources */,
+				8A867F678CDFA8D598439C0722BF8594 /* Frameworks */,
+				1F7DEEB3873FEA652BF054FA67CBFDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoo-Zoo";
+			productName = Zoo;
+			productReference = 9D7BABD20FD79A10CBE7046B898D7555 /* Zoo-Zoo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8F3238815C8D6D2611ACB829F86CCA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BBC3F7501C0F44072C92EB002A971F0 /* Pods-Zoo.General_Example */,
+				BD7480B28A6CDC87942BCA3EDCA51D3C /* Pods-Zoo.General_Tests */,
+				7CE5A84A1AB4DEAF9542B4E0AF544520 /* Zoo */,
+				FE8AAC40F367A05DD18F26745F21389B /* Zoo-Zoo */,
+				B69158ECA6ABAF7CDEDA6508B55BCAEA /* Zoo.General */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7DEEB3873FEA652BF054FA67CBFDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E0A64AD21F5FEE13BE39310B5DC093 /* Assets.xcassets in Resources */,
+				43713186516FFC2D57C998FB92F795FC /* Zoo.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5931B42ADCF283F2B788B2903562FEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1F3A345A96FB32DBF1FBC2C33E30B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA297AC9D90BDCD19918026CC81369DE /* Zoo-Zoo in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B1B0B954FC36DAFB42FA50F4FA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11385C9C87A23AC33E6B84292C39AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03244994E9718800A0A6852C5705C968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85BA02078F961A287F8DCDB08AF85E2 /* Pods-Zoo.General_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419F5ECFB33BB51818A22D9C3AAC31FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24B478A61FF3DA69D4970C21664643 /* Foundation+Zoo.m in Sources */,
+				4C3F7E135A0097A7B0200E96ACE7CA0E /* NSObject+Zoo.m in Sources */,
+				399EDEC494490B257D971EC9A9865FE5 /* UIColor+Zoo.m in Sources */,
+				45581552D62E8E4B2D510A2EDD508AE7 /* UIImage+Zoo.m in Sources */,
+				CA5F6BB26003B0DA7C73757004EA23AE /* UIView+Zoo.m in Sources */,
+				1167848A27225A34EB1C303AD435A62E /* UIViewController+Zoo.m in Sources */,
+				186F5B89FB271B0E1BF5899F0123A9EA /* Zoo-dummy.m in Sources */,
+				5090AB6C80F58A42EB6E5BAF1CDCF4E5 /* zoo_fishhook.c in Sources */,
+				8B49B54BDF7C58FDCDEA28E4C0BB518D /* ZooAlertUtil.m in Sources */,
+				CE7516D72DA47D2EDB6426A8741BF3CA /* ZooAppInfoUtil.m in Sources */,
+				B9984585F0A2C24964FC1A26CE2620AB /* ZooBacktraceLogger.m in Sources */,
+				6F30A901C053F7E85683E9B049DB2390 /* ZooBarChart.m in Sources */,
+				42EA8505451B193AD3CDB8163C877089 /* ZooBaseBigTitleView.m in Sources */,
+				1741421B553908A8B9C403801F6CB8C6 /* ZooBaseViewController.m in Sources */,
+				B2F5E1B22B2E42713F0D4BB27F643672 /* ZooCacheManager.m in Sources */,
+				2C5CB34FAF9D0C799ADB188C96C7D602 /* ZooCellButton.m in Sources */,
+				1D3F55B9F120748A682F84FDE7A770D8 /* ZooCellInput.m in Sources */,
+				082CAB10C2B77AC9E4BA22B0552ADD76 /* ZooCellSwitch.m in Sources */,
+				08F494A61161B8728E453E5B2C64ECFF /* ZooChart.m in Sources */,
+				698D38A5AE57A8567A234C875C9D032A /* ZooChartAxis.m in Sources */,
+				E5F5D173BF4B359D00B12896FA7E6245 /* ZooChartDataItem.m in Sources */,
+				625B45092EA7B30771061BFE8D86C315 /* ZooCopyLabel.m in Sources */,
+				8E2B3453CF0A291D86DF77C1F37D9EC9 /* ZooDefaultWebViewController.m in Sources */,
+				E4805C68751FE4C1E1C070A0A1DF7AED /* ZooEntryWindow.m in Sources */,
+				C6633F39080D6E284969664ABAFC1A5A /* ZooHomeCell.m in Sources */,
+				8BEB048097332E1EE3000A341791518C /* ZooHomeCloseCell.m in Sources */,
+				D963AED954CED69ACC075921529712C5 /* ZooHomeFootCell.m in Sources */,
+				366215AED6587A8851328868F2EB2EA6 /* ZooHomeHeadCell.m in Sources */,
+				1B4EA8397114AED4E9FE3B6594750B5C /* ZooHomeViewController.m in Sources */,
+				D864771D793D6845C5755EE28D11FDA8 /* ZooHomeWindow.m in Sources */,
+				B80A20098722F569470988877BCF5C63 /* Zooi18NUtil.m in Sources */,
+				715F599D4376060CAA837C2914350F02 /* ZooManager.m in Sources */,
+				278712BA190656E8B1C7FBC365C29148 /* ZooNavBarItemModel.m in Sources */,
+				3214F8921BD9AC2216A454C45E52FCFC /* ZooNavigationController.m in Sources */,
+				C8ECFFCF918426D43B26FAD0B33B80F0 /* ZooNetworkUtil.m in Sources */,
+				3F996A53CADB3EE6C00C18170307DE04 /* ZooPieChart.m in Sources */,
+				1175D5F4393882044B716E81137E9D50 /* ZooSandboxModel.m in Sources */,
+				B615F5058355FADF8F5058C927DA0A6C /* ZooStatusBarViewController.m in Sources */,
+				91BCC96F91800CAA03C0222B9DECBAB3 /* ZooStringSearchView.m in Sources */,
+				9FF60F65FC834E8D2521842A42FAE539 /* ZooThreadSafeMutableArray.m in Sources */,
+				D2342C0B97E00D27DBFB045B69E4C3E7 /* ZooThreadSafeMutableDictionary.m in Sources */,
+				506B7C43D86BB397B7A93D78984D21F7 /* ZooTimeProfilerCore.c in Sources */,
+				53CAEEC998613C1D5AD705E28BD0943A /* ZooToastUtil.m in Sources */,
+				AFA4E7BC25152ABCCDF268EE602854CF /* ZooUtil.m in Sources */,
+				DCED06AF406BE4405F167730AD4B7CE2 /* ZooVisualInfoWindow.m in Sources */,
+				3353408B2E7205E0F2AF1FA3D1DBC9C8 /* ZooVisualMagnifierWindow.m in Sources */,
+				F5F55F51F1ECDCAA72470C3CCF32D2AD /* ZooXAxis.m in Sources */,
+				A79D2935D2FE0D17DA9EB9485C02E6E2 /* ZooYAxis.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC76615B0177E4F2F29DA5108EBC3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE465C915780E4294FEB43292C10106 /* Zoo.General-dummy.m in Sources */,
+				A552F1CAD6566211EC47E9D5914D5E3C /* ZooAppInfoCell.m in Sources */,
+				4C62A384ED499134B73D047BCE222D83 /* ZooAppInfoPlugin.m in Sources */,
+				7381B88DA6502C718552125A857568A6 /* ZooAppInfoViewController.m in Sources */,
+				CD4D8AD88F5FC4AD6E5D39794A4A092B /* ZooAppSettingPlugin.m in Sources */,
+				1D112229F1EB3CAD9F00D5F50F23444E /* ZooCacheManager+General.m in Sources */,
+				CD29E81A13CFC44BA5AED95282538F7D /* ZooCrashListCell.m in Sources */,
+				53C74BCDDE88602330241429522D8A21 /* ZooCrashListViewController.m in Sources */,
+				CB813A83C570F3200AA7CD0E92F16F52 /* ZooCrashPlugin.m in Sources */,
+				A297CBD908E3AF85723A45A94AC0947C /* ZooCrashSignalExceptionHandler.m in Sources */,
+				F1895AE211F217E5351B80D080B1AF80 /* ZooCrashTool.m in Sources */,
+				BD5B400D0EB3E505905CE2616489AEAC /* ZooCrashUncaughtExceptionHandler.m in Sources */,
+				19F8EAFB5CB830F252EE395009FC7FC6 /* ZooCrashViewController.m in Sources */,
+				09428A5B75A25B802B2DE706B02F2A94 /* ZooDBCell.m in Sources */,
+				184B0836DD2A56FB578089BDC7F98819 /* ZooDBManager.m in Sources */,
+				B9BC0D0CB099043A1A411447B1D3E1EC /* ZooDBRowView.m in Sources */,
+				41C2726643BCBC42B334E3D6D342769C /* ZooDBShowView.m in Sources */,
+				E9758306D065F3FB44B636915C1AC6AB /* ZooDBTableViewController.m in Sources */,
+				553850B0C7C376C03EF180395A728B26 /* ZooDeleteLocalDataPlugin.m in Sources */,
+				759F0956D6953B1591C8533D8DECE08C /* ZooDeleteLocalDataViewController.m in Sources */,
+				47614DFB89A45F444511E71BCB55F8A5 /* ZooH5Plugin.m in Sources */,
+				E34C9B0232A864A648E3F96BD475760A /* ZooH5ViewController.m in Sources */,
+				567B1D2616F0F713F734CADC6D8D52F6 /* ZooManager+General.m in Sources */,
+				5067796F5FA7573B3E2D2FE81AF2DFCC /* ZooNSLogListCell.m in Sources */,
+				704411B0E306F005B96DBADB1C6D4D6A /* ZooNSLogListViewController.m in Sources */,
+				89E76E2319D861441C05D3B5748B2C37 /* ZooNSLogManager.m in Sources */,
+				DC5B32BF2E17BB6B41C0293DD6B0F343 /* ZooNSLogModel.m in Sources */,
+				F716F3DD676B35D25A5529E9ADBE4B56 /* ZooNSLogPlugin.m in Sources */,
+				CA8F93C6DA9957947C5EE81921B5C9C7 /* ZooNSLogViewController.m in Sources */,
+				05F507C84B9DCE0856704D04400A9B1A /* ZooNSUserDefaultsEditViewController.m in Sources */,
+				FD8935C7A48F49F28A6F3976146B2ABA /* ZooNSUserDefaultsModel.m in Sources */,
+				182EC99241AD1C2EA7C5B9A972B7D235 /* ZooNSUserDefaultsPlugin.m in Sources */,
+				5F67D0BD4653D74F1705AA459C6313FD /* ZooNSUserDefaultsViewController.m in Sources */,
+				FED58140DA8BA04E87562B59101CC0D6 /* ZooQRCodeViewController.m in Sources */,
+				9610DA94A9197A388E76EC3CF532A812 /* ZooQRScanView.m in Sources */,
+				D025C49AE7AEB30C8768D31F8109B2F6 /* ZooRouterPlugin.m in Sources */,
+				F5344C9BCF245AF8D36144735A4A084F /* ZooRouterViewController.m in Sources */,
+				B09742B183675A58C1FFA7CFE3AEF897 /* ZooSanboxDetailViewController.m in Sources */,
+				2258C66124774BC4B1574E37DBF70752 /* ZooSandboxCell.m in Sources */,
+				3920994FE098B638BDAA3311B7C1E853 /* ZooSandboxPlugin.m in Sources */,
+				87612D451D4E59992FB92A0E1FEA1C2C /* ZooSandboxViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E2E4B14B05647F1DCE411AB6929A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CF9BAE8BA838FD125A03AA50048D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2332445F2A97946CD9C0921CFAF2D3EC /* Pods-Zoo.General_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C087948E0D63353BFB6E68442E9A8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Zoo.General_Example";
+			target = 6BBC3F7501C0F44072C92EB002A971F0 /* Pods-Zoo.General_Example */;
+			targetProxy = EF3CC91FA72F728211C25BCA6AEDA400 /* PBXContainerItemProxy */;
+		};
+		4363E9ECC515FDD3C3E50D6B3A1325F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zoo;
+			target = 7CE5A84A1AB4DEAF9542B4E0AF544520 /* Zoo */;
+			targetProxy = 01A9D67BE4047D133C6D6CC68A41CB15 /* PBXContainerItemProxy */;
+		};
+		6E72B5C3CF00A8B97E9D16FF24D9E775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Zoo-Zoo";
+			target = FE8AAC40F367A05DD18F26745F21389B /* Zoo-Zoo */;
+			targetProxy = CE27E38E8F6B4BCFAA95D9E5EBEBF6CA /* PBXContainerItemProxy */;
+		};
+		C49F69D523A7981CEC98D5D4F98B6C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zoo;
+			target = 7CE5A84A1AB4DEAF9542B4E0AF544520 /* Zoo */;
+			targetProxy = 37C649FC2216C4903088CBDD8D43D68D /* PBXContainerItemProxy */;
+		};
+		F70BE1C13EC3DE918FCD915017804780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zoo.General;
+			target = B69158ECA6ABAF7CDEDA6508B55BCAEA /* Zoo.General */;
+			targetProxy = F7C000CB6E78772B27937885D63D8EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6714ECC75ABB421C11F83B868A06EE0 /* Zoo.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D68FC23DB2C918ECA24D010E16120E7 /* Zoo.strings */,
+				A412E7D958AB5EC84A2B347F0A0F1B2A /* Zoo.strings */,
+			);
+			name = Zoo.strings;
+			path = Zoo/Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06BDDFCCBC46A596A86C6488FBA83F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9EA521D141D9B9856BA25AA5B2F455 /* Zoo.General.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zoo.General/Zoo.General-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zoo.General/Zoo.General-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zoo.General/Zoo.General.modulemap";
+				PRODUCT_MODULE_NAME = ZooGeneral;
+				PRODUCT_NAME = ZooGeneral;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		307F008FCADE177CB63E14785A46AF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5425A913DF3C6037CA2762D182E8D4D /* Pods-Zoo.General_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zoo.General_Tests/Pods-Zoo.General_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zoo.General_Tests/Pods-Zoo.General_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F96FEF05BC41E5B3DA584ED7D2B8DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57A84EFD0B902D83ABF0EF8F0849375 /* Pods-Zoo.General_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zoo.General_Tests/Pods-Zoo.General_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zoo.General_Tests/Pods-Zoo.General_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		556A7342B73F93652A71FE7806AF509E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0F00C3BD2F72A4BE474655356B23E8 /* Zoo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zoo/Zoo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zoo/Zoo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zoo/Zoo.modulemap";
+				PRODUCT_MODULE_NAME = Zoo;
+				PRODUCT_NAME = Zoo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		600653EA45A0FE312AA431F64E00BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F11614385268EB0AB999C7915CEA254 /* Pods-Zoo.General_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F3C573DAF1A985901728E7F8C395BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7425501FB6155C1D3178A7222293D0B5 /* Zoo.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Zoo";
+				IBSC_MODULE = Zoo;
+				INFOPLIST_FILE = "Target Support Files/Zoo/ResourceBundle-Zoo-Zoo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Zoo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A1CBB79F043D986A5BB5AA5343678C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0F00C3BD2F72A4BE474655356B23E8 /* Zoo.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Zoo";
+				IBSC_MODULE = Zoo;
+				INFOPLIST_FILE = "Target Support Files/Zoo/ResourceBundle-Zoo-Zoo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Zoo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B8E36BE5780642CE5C3D0D37A19797A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F4D9E3616730A091967F6804DE113C /* Pods-Zoo.General_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zoo.General_Example/Pods-Zoo.General_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E8B0039872BD8654BD309FE6D7D4FB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2423D1C7CDFCDDD916B61D7246C97989 /* Zoo.General.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zoo.General/Zoo.General-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zoo.General/Zoo.General-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zoo.General/Zoo.General.modulemap";
+				PRODUCT_MODULE_NAME = ZooGeneral;
+				PRODUCT_NAME = ZooGeneral;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F42BD387E47548F91534E5EF058E04EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7425501FB6155C1D3178A7222293D0B5 /* Zoo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Zoo/Zoo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Zoo/Zoo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Zoo/Zoo.modulemap";
+				PRODUCT_MODULE_NAME = Zoo;
+				PRODUCT_NAME = Zoo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064CBAA624FD23824A81F36CB1C828D3 /* Build configuration list for PBXNativeTarget "Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556A7342B73F93652A71FE7806AF509E /* Debug */,
+				F42BD387E47548F91534E5EF058E04EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7EFC70295CC1B91302D4A33C5E8614 /* Build configuration list for PBXNativeTarget "Pods-Zoo.General_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307F008FCADE177CB63E14785A46AF56 /* Debug */,
+				3F96FEF05BC41E5B3DA584ED7D2B8DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B53BF19C40E19A0DDB232B6ECAA2AD /* Build configuration list for PBXNativeTarget "Zoo.General" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BDDFCCBC46A596A86C6488FBA83F9E /* Debug */,
+				E8B0039872BD8654BD309FE6D7D4FB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B184782486B1DADDBB7CB0713664E8 /* Build configuration list for PBXNativeTarget "Zoo-Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CBB79F043D986A5BB5AA5343678C2D /* Debug */,
+				8F3C573DAF1A985901728E7F8C395BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53474A1A0C99D0B352E2DAE07CF26B9 /* Build configuration list for PBXNativeTarget "Pods-Zoo.General_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600653EA45A0FE312AA431F64E00BBBC /* Debug */,
+				B8E36BE5780642CE5C3D0D37A19797A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

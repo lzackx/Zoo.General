@@ -6,12 +6,12 @@
 
 #import "ZooNSLogListViewController.h"
 #import "ZooNSLogManager.h"
-#import "UIView+Zoo.h"
+#import <Zoo/UIView+Zoo.h>
 #import "ZooNSLogListCell.h"
 #import "ZooNSLogModel.h"
 #import <Zoo/ZooStringSearchView.h>
-#import "ZooDefine.h"
-#import "ZooNavBarItemModel.h"
+#import <Zoo/ZooDefine.h>
+#import <Zoo/ZooNavBarItemModel.h>
 
 @interface ZooNSLogListViewController ()<UITableViewDelegate,UITableViewDataSource,ZooStringSearchViewDelegate>
 

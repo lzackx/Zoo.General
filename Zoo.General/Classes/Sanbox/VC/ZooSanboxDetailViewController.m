@@ -7,9 +7,9 @@
 #import <AVKit/AVKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "ZooSanboxDetailViewController.h"
-#import "ZooToastUtil.h"
-#import "UIView+Zoo.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/ZooToastUtil.h>
+#import <Zoo/UIView+Zoo.h>
+#import <Zoo/Zooi18NUtil.h>
 #import <QuickLook/QuickLook.h>
 #import "ZooDBManager.h"
 #import "ZooDBTableViewController.h"

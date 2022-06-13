@@ -5,15 +5,15 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooCrashViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooCellButton.h"
-#import "UIView+Zoo.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooCellButton.h>
+#import <Zoo/UIView+Zoo.h>
 #import "ZooCacheManager+General.h"
 #import "ZooCrashListViewController.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/Zooi18NUtil.h>
 #import "ZooCrashTool.h"
-#import "ZooToastUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooToastUtil.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooCrashViewController () <ZooSwitchViewDelegate, ZooCellButtonDelegate>
 

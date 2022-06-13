@@ -6,7 +6,7 @@
 
 #import "ZooRouterPlugin.h"
 #import "ZooRouterViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooRouterPlugin
 

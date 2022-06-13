@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooNSLogListCell.h"
-#import "ZooDefine.h"
-#import "ZooUtil.h"
+#import <Zoo/ZooDefine.h>
+#import <Zoo/ZooUtil.h>
 
 @interface ZooNSLogListCell()
 

@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooQRCodeViewController.h"
-#import "ZooDefaultWebViewController.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefaultWebViewController.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooQRScanView.h"
 
 

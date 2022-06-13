@@ -6,7 +6,7 @@
 
 #import "ZooH5Plugin.h"
 #import "ZooH5ViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooH5Plugin
 

@@ -6,7 +6,7 @@
 
 #import "ZooCrashPlugin.h"
 #import "ZooCrashViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooCrashPlugin
 

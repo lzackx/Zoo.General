@@ -6,7 +6,7 @@
 
 #import "ZooNSUserDefaultsPlugin.h"
 #import "ZooNSUserDefaultsViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooNSUserDefaultsPlugin
 - (void)pluginDidLoad{

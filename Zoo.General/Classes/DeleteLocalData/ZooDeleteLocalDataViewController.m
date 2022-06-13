@@ -5,10 +5,10 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooDeleteLocalDataViewController.h"
-#import "Zooi18NUtil.h"
-#import "ZooUtil.h"
-#import "ZooCellButton.h"
-#import "ZooDefine.h"
+#import <Zoo/Zooi18NUtil.h>
+#import <Zoo/ZooUtil.h>
+#import <Zoo/ZooCellButton.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooDeleteLocalDataViewController ()<ZooCellButtonDelegate>
 

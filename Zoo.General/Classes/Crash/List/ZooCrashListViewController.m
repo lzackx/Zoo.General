@@ -5,13 +5,13 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooCrashListViewController.h"
-#import "UIView+Zoo.h"
+#import <Zoo/UIView+Zoo.h>
 #import "ZooCrashListCell.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/Zooi18NUtil.h>
 #import "ZooSanboxDetailViewController.h"
 #import <Zoo/ZooSandboxModel.h>
 #import "ZooCrashTool.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 static NSString *const kZooCrashListCellIdentifier = @"kZooCrashListCellIdentifier";
 

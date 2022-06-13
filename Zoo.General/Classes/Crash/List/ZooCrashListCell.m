@@ -6,7 +6,7 @@
 
 #import "ZooCrashListCell.h"
 #import <Zoo/ZooSandboxModel.h>
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooCrashListCell ()
 

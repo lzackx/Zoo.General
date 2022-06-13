@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooAppSettingPlugin.h"
-#import "ZooUtil.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooUtil.h>
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooAppSettingPlugin
 

@@ -6,11 +6,11 @@
 
 #import "ZooSandboxCell.h"
 #import <Zoo/ZooSandboxModel.h>
-#import "ZooUtil.h"
-#import "UIView+Zoo.h"
-#import "ZooDefine.h"
-#import "UIImage+Zoo.h"
-#import "UIColor+Zoo.h"
+#import <Zoo/ZooUtil.h>
+#import <Zoo/UIView+Zoo.h>
+#import <Zoo/ZooDefine.h>
+#import <Zoo/UIImage+Zoo.h>
+#import <Zoo/UIColor+Zoo.h>
 
 @interface ZooSandBoxCell()
 
